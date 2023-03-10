@@ -29,5 +29,68 @@
 			    "May choose [1] additional belief(s) of any type when [founding] a religion"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
-]
+		{
+		"name": "Salumi",
+		"leaderName": "Sarita Sephira Saldrigal",
+		"adjective": ["Salumian"],
+		"startBias": ["Plain","Hills"],
+  	        "preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Be welcomed, beautiful queen. You lead the beatiful and joyful nation of Salumi, a country filled more women than men with great cultural and bio diversity. ...One, two, three! Three had been the attempts to break free - getting terribly punished - but with determination, Salumi emerged to a great nation. Since the start we had a ton of great political division, which brought many problems and conflicts, but despite all the troubles, Salumi ought to help other no matter what. The conflicts didn't cease until early 21st century, where the sun finally rises over Salumi to achieve greatness.",
+		"startIntroPart2": "Queen, your people want you to lead them to greatness and the princesses support you. They want you to convert them in to the best nation. Will you make the call? Can you fight and triump over the adversities of life? Can you build a civilization that can stand the pass of time of problems?",
+
+		"declaringWar": "Prepare to lose your empire of opression!",
+		"attacked": "You will see how fruitless this will be for you. Wait and see.",
+		"defeated":  "I hope you treat my people good, don´t take away their happiness. Our love is in the Saviour.",
+		"introduction":  "Greetings! This is Salumi, our wonderful land. Want a kiss?",
+		"neutralHello": "Hello There.",
+		"hateHello": "Assh, what do you want?",
+		"tradeRequest": "I  thought you might be intested in this...",
+
+	        "outerColor": [127,0,255],
+		"innerColor": [255,0,255],
+
+		"uniqueName": "Matriarch Heart",
+		"uniques": ["+1 Culture, +1 Happiness] from [All] tiles [in all cities]","Starts with [Calendar]","[+3 Gold] from every [Luxury resource]",
+			   "[+2 Culture] from every [Plantation]","[+1 Gold] from every [Plantation]","[+1 Food] from every [Plantation]","Receive a free Social Policy when you advance to the next era",
+			   "[+20]% Strength <when fighting units from a Civilization with more Cities than you>","[-10]% Culture cost of adopting new Policies"],
+
+		"cities": ["Saludon","Saludonio","Libro Saldos","Saludos","Villavicencio", "Medellin","Cali", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", 
+			   "Sophia", "Leticia","Sal Kristell","Sal Kristina","Paula","Libra Saldine","Baconilla","Hamburger","Duke Baloney"]
+	},
+		{
+		"name": "Rhuffelj",
+		"leaderName": "a",
+		"adjective": ["Rhuffeljians"],
+		"startBias": ["Forest","Jungle"],
+  	        "preferredVictoryType": "Cultural",
+		"favoredReligion": "Shinto",
+
+		"startIntroPart1": "Rise up O' mother of Palneothic. Cradle of its civilization, your husband has rounded up the surrounding people and got rid of pagan lifestyles. Coming from another world, he gave us gentiles hope by letting us know the Father and taught us education.",
+		"startIntroPart2": "Will you continue to build what your husband has built for us?",
+
+		"declaringWar": "We may not be advance but prepare for defeat!",
+		"attacked": "We may not be advance but prepare for defeat!",
+		"defeated":  "I beg that you secure our future.",
+		"introduction":  "Hello, are from an advance civilization? We may not be much but lets be friends",
+		"neutralHello": "Hi friends.",
+		"hateHello": "Leave us, we will not submit just because were not advance.",
+		"hateLetsHearIt": "We will stone you!",
+		"afterPeace": "Better be not after our stones again.",
+		"tradeRequest": "We bring you gifts from our wonderful lands.",
+
+	        "outerColor": [12,75,25],
+		"innerColor": [157,172,255],
+
+		"uniqueName": "Prehistoric Tales",
+		"uniques": ["[+2 Faith] from every [Mountain]","Units ignore terrain costs when moving into any tile with Hills",
+			    "[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
+			   "[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>",
+			    "May choose [2] additional belief(s) of any type when [founding] a religion","[-40]% Culture cost of adopting new Policies",
+			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+
+		"cities": ["r","h","u","f","f","e","l","j"]
+	}
   ]
