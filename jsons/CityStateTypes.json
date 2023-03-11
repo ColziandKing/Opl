@@ -3,7 +3,7 @@
     {
         "name": "Industrial",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Medieval era]>",
+            "[+3 Production] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Culture] <starting from the [Industrial era]>"
         ],
