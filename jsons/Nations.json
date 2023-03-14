@@ -28,7 +28,7 @@
 		"uniques": ["[+2 Faith] from every [Mountain]","Units ignore terrain costs when moving into any tile with Hills",
 			    "[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
 			   "[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>",
-			    "May choose [2] additional belief(s) of any type when [founding] a religion","[-40]% Culture cost of adopting new Policies",
+			    "May choose [1] additional belief(s) of any type when [founding] a religion","[-20]% Culture cost of adopting new Policies",
 			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
@@ -60,7 +60,7 @@
 
 		"uniqueName": "Ages of Dynasty",
 		"uniques": ["Starts with [Writing]","[+1] Sight <for [{Military} {Land}] units>", "[-50]% Gold cost of acquiring tiles [in all cities]",
-			   "[+50]% [Culture] [in all cities] <during a Golden Age>","[Great Artist] is earned [50]% faster <during a Golden Age>","[-40]% Culture cost of adopting new Policies",
+			   "[+50]% [Culture] [in all cities] <during a Golden Age>","[Great Artist] is earned [50]% faster <during a Golden Age>","[-20]% Culture cost of adopting new Policies",
 			   "[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
 
 		"cities": ["Banjheong-Fuojin","FormerSlaveCamp Village","Hedoyu"]
@@ -89,7 +89,7 @@
 		"innerColor": [68,142,249],
 
 		"uniqueName": "Ancient Rebuilding",
-		"uniques": ["Starts with [Masonry]","[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced","[-40]% Culture cost of adopting new Policies",
+		"uniques": ["Starts with [Masonry]","[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced","[-20]% Culture cost of adopting new Policies",
 			   "[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
 			   "[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
 
@@ -121,7 +121,7 @@
 		"uniqueName": "Fight Dealer",
 		"uniques": ["Cannot build [Settler] units","New [Military] units start with [50] Experience","[+30]% Strength <vs [Barbarian] units>",
 			    "Receive a free [Great General] when you discover [Horseback Riding]","Great General provides double combat bonus", 
-			    "Receive triple Gold from Barbarian encampments and pillaging Cities", "[Great General] is earned [50]% faster","[-40]% Culture cost of adopting new Policies",
+			    "Receive triple Gold from Barbarian encampments and pillaging Cities", "[Great General] is earned [50]% faster","[-20]% Culture cost of adopting new Policies",
 			    "\"Borrows\" city names from other civilizations in the game","[+30]% Strength for cities <when attacking>"],
 
 		"cities": ["Magroonaguio"]
@@ -152,7 +152,7 @@
 
 		"uniqueName": "New Beginning",
 		"uniques": ["[+2 Gold] from every [Ocean]","[+1] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
-			"No movement cost to pillage <for [Melee] units>","[-40]% Culture cost of adopting new Policies", 
+			"No movement cost to pillage <for [Melee] units>","[-20]% Culture cost of adopting new Policies", 
 			   "+[50]% Production when constructing [Walls] buildings [in all cities]","Units pay only 1 movement point to embark and disembark",
 			   "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-25]% Culture cost of natural border growth [in all cities]"],
 
@@ -182,16 +182,16 @@
 		"outerColor": [255,128,0],
 		"innerColor": [255,255,0], 
 		"uniqueName": "Domain Rule",
-		"uniques": ["[+1 Science] from [All] tiles [in all cities]", "Starts with [Bronze Working]","Provides [2] [Porcelain]","Provides [2] [Jewelry]",
+		"uniques": ["[+1 Science] from [All] tiles [in all cities]", "Starts with [Construction]","Starts with [Currency]",
 			    "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
-			    "Military Units gifted from City-States start with [+100] XP", "[-10]% Culture cost of adopting new Policies", 
+			    "Military Units gifted from City-States start with [+100] XP", "[-40]% Culture cost of adopting new Policies", 
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
 			    "May choose [2] additional belief(s) of any type when [founding] a religion","Cannot build [Scout] units"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
 		{
 		"name": "Salumi",
-		"leaderName": "Sarita Sephira Saldrigal",
+		"leaderName": "Sophia Kristell & Paula Kristina Saludo",
 		"adjective": ["Salumian"],
 		"startBias": ["Plain","Hills"],
   	        "preferredVictoryType": "Cultural",
@@ -214,10 +214,107 @@
 		"uniqueName": "Matriarch Heart",
 		"uniques": ["+1 Culture, +1 Happiness] from [All] tiles [in all cities]","Starts with [Calendar]","[+3 Gold] from every [Luxury resource]",
 			   "[+2 Culture] from every [Plantation]","[+1 Gold] from every [Plantation]","[+1 Food] from every [Plantation]","Receive a free Social Policy when you advance to the next era",
-			   "[+20]% Strength <when fighting units from a Civilization with more Cities than you>","[-10]% Culture cost of adopting new Policies"],
+			   "[+20]% Strength <when fighting units from a Civilization with more Cities than you>","[-20]% Culture cost of adopting new Policies"],
 
 		"cities": ["Saludon","Saludonio","Libro Saldos","Saludos","Villavicencio", "Medellin","Cali", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", 
 			   "Sophia", "Leticia","Sal Kristell","Sal Kristina","Paula","Libra Saldine","Baconilla","Hamburger","Duke Baloney"]
+	},
+	{
+		"name": "Salveo",
+		"leaderName": "Warren Gradllium Fe-Norivest",
+		"adjective": ["Salveolites"],
+		"startBias": ["Hill"],
+  	        "preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Greetings my lord, its a great honor to serve you. You once conquered the west with the Masters of iron and Heroine/Baroness of steel. You extracted precious minerals for war and jewelry, you did all this to hide your sadness and weakness. Then the Rule conquered us and showed the error of our ways, we supported them fully and our kingdom rose more.",
+		"startIntroPart2": "My king, what do you think? Should we once more conquest the lands far from the land of our fathers?",
+
+		"declaringWar": "Prepare to lose, dead shrub!",
+		"attacked": "You will see how fruitless you are, unbearing anything dead shrub.",
+		"defeated":  "I hope a shrub like you becomes my soil for a bounty of greatness.",
+		"introduction":  "Greetings! This the land iron and metals. Hey, you look like a shrub?",
+		"neutralHello": "Hello shrub person.",
+		"hateHello": "What do you want unbearing shrub?",
+		"hateLetsHearIt": "You are like us hard as iron.",
+		"afterPeace": "Better not attack us again, God is stronger than any metal",
+		"tradeRequest": "I thought I might gift you something O' humble shrub, you want an iron hand. Get it? No.",
+
+	        "outerColor": [0,0,0],
+		"innerColor": [0,0,255],
+
+		"uniqueName": "Iron Forged Will",
+		"uniques": ["Starts with [Mining]","Starts with [Bronze Working]","[+1 Production] from [All] tiles [in all cities]",
+			   "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-25]% Culture cost of natural border growth [in all cities]",
+			   "[+3 Production] from every [Strategic resource]","[+20]% Production when constructing [All] wonders [in all cities]",
+			   "[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast","[-20]% Culture cost of adopting new Policies"],
+
+		"cities": ["Leonorre","Leo Volt","Seon-Voe","Leono","Leona","Le Nova","Sardaze"]
+	},
+	{
+		"name": "Suzainswellia",
+		"leaderName": "Uzaine Anne Caballero",
+		"adjective": ["Swells"],
+		"startBias": ["Coast"],
+  	        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Grand governor of the suzerain Colziand. We are honored of your presence and the leader is please to meet you again since college.",
+		"startIntroPart2": "Dear queen of Colziand, we are in no position to ask you but guide us.",
+
+		"declaringWar": "Our ships will end this wages of sin!",
+		"attacked": "I want you see now that your land will be sunk by our waves of attacks.",
+		"defeated":  "It looks like we sunked.",
+		"introduction":  "Waves as high as heavens I introduce you to our home.",
+		"neutralHello": "I wave to you.",
+		"hateHello": "My the wrath of God bash waves at your cities and flood your lands?",
+		"hateLetsHearIt": "Got a proposal?.",
+		"afterPeace": "Hey, no hard feelings. Let's not bother each other again.",
+		"tradeRequest": "I have shipments of cargo.",
+
+	        "outerColor": [114, 162, 233],
+		"innerColor": [61, 0, 109],
+
+		"uniqueName": "Coastal Express",
+		"uniques": ["Starts with [Pottery]","Starts with [Sailing]", "[+1 Food, +1 Gold] from [All] tiles [in all cities]","+[100]% [Gold] [in capital]",
+			    "Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			  "Units ignore terrain costs when moving into any tile with Mountain","[-40]% Culture cost of adopting new Policies",
+			    "[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
+			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]","[-40]% Culture cost of adopting new Policies",
+			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]"],
+
+		"cities": ["Buenlyssia","Gabina","Nicono","Pathrica","Diwayville","Jambini","Cassia","Lanita Yella"]
+	},
+	{
+		"name": "Fullysia",
+		"leaderName": "Ullysia Ryden Gozanlithozz",
+		"adjective": ["Fullysian"],
+		"startBias": ["Grassland","Forest"],
+  	        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Feared woman with the strength like men. You Ullysia from Colziand is fierce in battles but at what cost? You do it so that it will end, war destroys each other but peace helps each other.",
+		"startIntroPart2": "See? War will once more wage, do what must be done.",
+
+		"declaringWar": "Prepare! My people are skilled for this terrains.",
+		"attacked": "You see. Your land will be covered in nature because we will ruin it.",
+		"defeated":  "Raze, puppet or annex? We will be liberated.",
+		"introduction":  "Salutations, I wanna know your kingdom too?",
+		"neutralHello": "Hello There.",
+		"hateHello": "No, I don't wanna hear it.?",
+		"hateLetsHearIt": "Strong like bark, now what?.",
+		"afterPeace": "From Colziand we voyage to new land, better leave us.",
+		"tradeRequest": "We have an offer.",
+
+	        "outerColor": [114, 0, 0],
+		"innerColor": [255,255,255],
+
+		"uniqueName": "Fullysianth Song",
+		"uniques": ["Starts with [Animal Husbandry]","Starts with [The Wheel]","[+1 Faith] from [All] tiles [in all cities]",
+			   "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[-40]% Culture cost of adopting new Policies",
+			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
+
+		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
 	},
 		//Medieval Civs
 	{
@@ -327,7 +424,7 @@
 		"cities": ["Azibhania Fortspance","Uemsphire Citadel","Ravimines Deposit"]
 	},
 	{
-		"name": "Eisnia Archipelago",
+		"name": "Orlegciuhn",
 		"leaderName": "Eisnia Haitenua",
 		"adjective": ["Eisnians"],
 		"startBias": ["Coast","Avoid [Tundra]","Avoid [Desert]","Avoid [Marsh]"],
@@ -393,6 +490,41 @@
 	},
 		//Renaissance Civs
 	{
+		"name": "Eisnia Archipelago",
+		"leaderName": "Eisnia Haitenua",
+		"adjective": ["Eisnians"],
+		"startBias": ["Coast","Avoid [Tundra]","Avoid [Desert]","Avoid [Marsh]"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Alohai, chieftess of our tropical world. Your father fought well so all of our people can be united, in the process your brother who was next in line died. Grace in your beauty and wisdom, you were able to lead and unite all until the World War.",
+		"startIntroPart2": "Continue to lead us even in the future, alohai!",					
+		
+		"declaringWar": "You are endangering our archipelago, we will put a stop to you!",
+		"attacked": "Why? We will stop with our resources.!",
+		"defeated": "You now own this archipelago, treat us and our land well leader.",
+		"introduction": "Welcome to paradise, treat this place well as you do to yourself.",
+		"neutralHello": "How you?",		
+		"neutralLetsHearIt": "You have a gift?",
+		"neutralNo": "I don't think it benefits us.",
+		"neutralYes": "You know how to do a fine trade",
+		"hateHello": "How you!",	
+		"hateLetsHearIt": "You are difficult.",
+		"hateNo": "I could have you hung for that.",
+		"hateYes": "...",
+		"afterPeace": "Hope that both of our lands flourishes once more",
+		"tradeRequest": "I may have something exotic.",
+		
+		"outerColor": [255,255,78],
+		"innerColor": [225,105,0], 
+		"uniqueName": "Expedition Alliance",
+		"uniques": ["Receive a free [Great Merchant] when you discover [Currency]","[+2 Gold] from every [Mountain]","[-40]% Culture cost of adopting new Policies",
+			   "Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>", "[+10]% Strength <within [2] tiles of a [Moai]>",
+			   "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
+			   "[Land] units gain the [Amphibious] promotion", "Defense bonus when embarked <for [All] units>"],
+		"cities": ["Mukhakhatii","Gulalamaneia","Aweihura","Shire of Haitenua","Philippines","Malaysia","Guineas"]
+	},
+	{
 		"name": "Yanzerhan",
 		"leaderName": "Yanzer Hirothome",
 		"adjective": ["Hanites"],
@@ -449,10 +581,8 @@
 		"innerColor": [157,172,255],
 
 		"uniqueName": "Prehistoric Tales",
-		"uniques": ["[+2 Faith] from every [Mountain]","Units ignore terrain costs when moving into any tile with Hills",
-			    "[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
-			   "[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>",
-			    "May choose [2] additional belief(s) of any type when [founding] a religion","[-40]% Culture cost of adopting new Policies",
+		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]",
+			    "May choose [1] additional belief(s) of any type when [founding] a religion","[-40]% Culture cost of adopting new Policies",
 			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
@@ -489,6 +619,37 @@
 			   "[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
 
 		"cities": ["Quenrah","Riensang","Sceanaoriff","Tuera West","Uemova"]
+	},
+	{
+		"name": "Jerdain Organization",
+		"leaderName": "Jerdain the Organizer",
+		"adjective": ["Organs"],
+		"startBias": ["Grassland","Forest"],
+  	        "preferredVictoryType": "Scientific",
+		"favoredReligion": "Confucianism",
+
+		"startIntroPart1": "This is an important agenda, we were gifted the knowledge rifling. We are going to discover and dominate it all.",
+		"startIntroPart2": "See? War will soon begin, we must make our name.",
+
+		"declaringWar": "Prepare! My warfare surpasses you.",
+		"attacked": "Gahh! Come here and fight.",
+		"defeated":  "Were lost.",
+		"introduction":  "How do you doo? We are currently hiring.",
+		"neutralHello": "Hello There.",
+		"hateHello": "No, I don't wanna hear it.?",
+		"hateLetsHearIt": "Ok fine, now what?.",
+		"afterPeace": "It's time for a rest.",
+		"tradeRequest": "We have an offer.",
+
+	        "outerColor": [92, 32, 92],
+		"innerColor": [255, 210, 110],
+
+		"uniqueName": "Revolutionary Achievements",
+		"uniques": ["+[25]% strength for [Wounded] units","[+1 Happiness, +1 Culture] from every [Barracks]","[+1 Food] from every [Plantation]",
+			   "[-20]% Culture cost of adopting new Policies","[+2 Culture] from every [Camps]","Starts with [Rifling]","[+2 Science] from every [Snow]",
+			   "[+2 Science] from every [Ice]","[+1 Science] from every [Coast]","[-40]% Culture cost of adopting new Policies"],
+
+		"cities": ["Dome Headquarters","Totem Bunkerbase","Polebind"]
 	},
 		//CityStates
 		{
