@@ -26,7 +26,7 @@
 			    "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
 			    "Military Units gifted from City-States start with [+100] XP", "[-10]% Culture cost of adopting new Policies", 
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
-			    "May choose [1] additional belief(s) of any type when [founding] a religion","Cannot build [Scout] units"],
+			    "May choose [2] additional belief(s) of any type when [founding] a religion","Cannot build [Scout] units"],
 		"spyNames": ["Raymond", "Uzaine", "Richard", "Shinami", "Yushira", "Minashi", "Roger", "Chloe", "Chief", "Julia"]
 	},
 		{
@@ -59,6 +59,7 @@
 		"cities": ["Saludon","Saludonio","Libro Saldos","Saludos","Villavicencio", "Medellin","Cali", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", 
 			   "Sophia", "Leticia","Sal Kristell","Sal Kristina","Paula","Libra Saldine","Baconilla","Hamburger","Duke Baloney"]
 	},
+		
 		{
 		"name": "Rhuffelj",
 		"leaderName": "a",
@@ -93,6 +94,7 @@
 
 		"cities": ["r","h","u","f","f","e","l","j"]
 	},
+		//CityStates
 		{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
