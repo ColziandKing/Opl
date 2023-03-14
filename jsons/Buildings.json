@@ -150,7 +150,7 @@
 		"culture": 2,
 		"maintenance": 4,
 		"percentStatBonus": {"gold": 20},
-    "replaces": "Hypermarket",
+    		"replaces": "Hypermarket",
 		"requiredTech": "Replaceable Parts"
    	},
 	{
