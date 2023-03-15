@@ -558,7 +558,7 @@
 	},
 	{
 		"name": "Rhuffelj",
-		"leaderName": "a",
+		"leaderName": "Rina Ksangue Empressia",
 		"adjective": ["Rhuffeljians"],
 		"startBias": ["Forest","Jungle"],
   	        "preferredVictoryType": "Cultural",
@@ -580,13 +580,12 @@
 	        "outerColor": [12,75,25],
 		"innerColor": [157,172,255],
 
-		"uniqueName": "Prehistoric Tales",
-		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]",
-			    "May choose [1] additional belief(s) of any type when [founding] a religion","[-40]% Culture cost of adopting new Policies",
+		"uniqueName": "Nature's Happiness",
+		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]","[-40]% Culture cost of adopting new Policies",
 			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
-		"cities": ["r","h","u","f","f","e","l","j"]
+		"cities": ["Feljhia","h","u","f","f","e","l","j"]
 	},
 		//Industrial Civs
 	{
