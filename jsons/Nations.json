@@ -71,6 +71,7 @@
 		"adjective": ["Xemlions"],
 		"startBias": ["Oasis","Desert"],
   	        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Zoroastrianism",
 
 		"startIntroPart1": "Greetings president. Now is the time to bring together the forgotten and lost back together. Lets make the sand into grass and feed the hungry.",
 		"startIntroPart2": "This is it, God is guiding us so that we are able to return to the grand times of life.",
@@ -132,7 +133,7 @@
 		"adjective": ["Netals"],
 		"startBias": ["Hills"],
  	        "preferredVictoryType": "Domination",
-		"favoredReligion": "Tengriism",
+		"favoredReligion": "Sikhism",
 
 		"startIntroPart1": "High & high it be the roar to our king of our ancestors realm. This land where we stand, where our ancestors fought and lost blood & soul. We have kept it out of alien invaders. Who want our people dead for our difference from themselves, should we dominate the outsiders or become allies with them for a nation of nations that has been prophesied for a long time. It was when our rebellious past, left the one and only truth. Then came that from domination of those who stray in our lands to a change of letting them in our lands and giving them great hospitality",
 		"startIntroPart2": "Prince, O' Future King! Lead us like your heirs and those who lead us before you.",
@@ -347,7 +348,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "Scientific Sanctuary States",
 		"uniques": ["Receive a free [Great Scientist] when you discover [Philosophy]","[+2 Science] from every [Mountain]",
-			   "[Great Scientist] is earned [50]% faster","[+25]% [Science] [in annexed cities]","[-40]% Culture cost of adopting new Policies",
+			   "[Great Scientist] is earned [50]% faster","[+25]% [Science] [in annexed cities]","[-20]% Culture cost of adopting new Policies",
 			   "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			   "[-10]% Culture cost of natural border growth [in all cities]","+[15]% combat bonus for units fighting in [Friendly Land]"],
 		
@@ -386,7 +387,7 @@
 		"innerColor": [146,221,9],
 		"uniqueName": "Cultural Conquest",
 		"uniques": ["Receive free [Great Artist] when you discover [Drama and Poetry]","[+2 Culture] from every [Mountain]",
-			   "[+6 Culture] from every [Landmark]","[Great Artist] is earned [25]% faster","[-40]% Culture cost of adopting new Policies",
+			   "[+6 Culture] from every [Landmark]","[Great Artist] is earned [25]% faster","[-20]% Culture cost of adopting new Policies",
 			   "Earn [100]% of killed [Military] unit's [Strength] as [Culture]","[+1 Culture, +1 Gold] from each Trade Route"],
 		"cities": ["Umiratie Landscape","Caravansary Company","Harimyar Harvest Hills","Ountain Generator","Spirit Fills"]
 	},
@@ -418,7 +419,7 @@
 		"outerColor": [10,10,10],
 		"innerColor": [245,245,245],
 		"uniqueName": "Domination & Submission",
-		"uniques": ["Receive free [Great Engineer] when you discover [Engineering]","[+2 Production] from every [Mountain]","[-40]% Culture cost of adopting new Policies",
+		"uniques": ["Receive free [Great Engineer] when you discover [Engineering]","[+2 Production] from every [Mountain]","[-20]% Culture cost of adopting new Policies",
 			   "[-50]% maintenance costs <for [Melee] units>","[Military] units gain [25]% more Experience from combat","[+2] Movement <for [Water] units>",
 			   "Units fight as though they were at full strength even when damaged","[+1 Culture] from every [Fishing Boats]","[+2 Culture] from every [Atoll]"]
 		"cities": ["Azibhania Fortspance","Uemsphire Citadel","Ravimines Deposit"]
@@ -562,7 +563,7 @@
 		"adjective": ["Rhuffeljians"],
 		"startBias": ["Forest","Jungle"],
   	        "preferredVictoryType": "Cultural",
-		"favoredReligion": "Shinto",
+		"favoredReligion": "Hiinduism",
 
 		"startIntroPart1": "Rise up O' mother of Palneothic. Cradle of its civilization, your husband has rounded up the surrounding people and got rid of pagan lifestyles. Coming from another world, he gave us gentiles hope by letting us know the Father and taught us education.",
 		"startIntroPart2": "Will you continue to build what your husband has built for us?",
@@ -577,15 +578,15 @@
 		"afterPeace": "Better be not after our stones again.",
 		"tradeRequest": "We bring you gifts from our wonderful lands.",
 
-	        "outerColor": [12,75,25],
-		"innerColor": [157,172,255],
+	        "outerColor": [141,93,30],
+		"innerColor": [198,140,64],
 
 		"uniqueName": "Nature's Happiness",
 		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]","[-40]% Culture cost of adopting new Policies",
 			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
-		"cities": ["Feljhia","h","u","f","f","e","l","j"]
+		"cities": ["Feljhia","Hueljhia","Uerelj","Rhu-Ia","Iaf","Jhiafue","Luel","Ufa"]
 	},
 		//Industrial Civs
 	{
@@ -650,11 +651,13 @@
 
 		"cities": ["Dome Headquarters","Totem Bunkerbase","Polebind"]
 	},
+		//Modern Civs
+	
 		//CityStates
 		{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
-		"cityStateType": "Industrial",
+		"cityStateType": "Militaristic",
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
@@ -666,7 +669,7 @@
 	{
 		"name": "Edinburgh",
 		"adjective": ["Edinburghensian"],
-		"cityStateType": "Scientific",
+		"cityStateType": "Militaristic",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
