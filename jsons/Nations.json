@@ -651,9 +651,112 @@
 
 		"cities": ["Dome Headquarters","Totem Bunkerbase","Polebind"]
 	},
-		//Modern Civs
-	
+		//Special
+	{
+		"name": "Barbarians",
+		"leaderName": "Grrrrr",
+		"adjective": ["Grg"],
+		"startBias": ["Forest"],
+
+		"startIntroPart1": "Rise up O' mother of Palneothic. Cradle of its civilization, your husband has rounded up the surrounding people and got rid of pagan lifestyles. Coming from another world, he gave us gentiles hope by letting us know the Father and taught us education.",
+		"startIntroPart2": "Will you continue to build what your husband has built for us?",
+
+		"declaringWar": "We may not be advance but prepare for defeat!",
+		"attacked": "We may not be advance but prepare for defeat!",
+		"defeated":  "I beg that you secure our future.",
+		"introduction":  "Hello, are from an advance civilization? We may not be much but lets be friends",
+		"neutralHello": "Hi friends.",
+		"hateHello": "Leave us, we will not submit just because were not advance.",
+		"hateLetsHearIt": "We will stone you!",
+		"afterPeace": "Better be not after our stones again.",
+		"tradeRequest": "We bring you gifts from our wonderful lands.",
+
+	        "outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+
+		"uniqueName": "Angry",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills"],
+
+		"cities": ["DED","ISH","FUT","ILE"]
+		{
+		"name": "Piety",
+		"leaderName": "Piety",
+		"adjective": ["Piety"],
+		"startBias": ["Grassland","Plains","Hills","Coast"],
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198,255,192],
+
+		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]","[+100]% Production when constructing [Temple] buildings [in all cities]",
+			   "[+1 Faith] from every [Shrine]","[+1 Faith] from every [Temple]","[50]% of excess happiness converted to [Culture]",
+			   "[+10]% [Gold] from every [Temple]","[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age",
+			   "[-10]% Culture cost of adopting new Policies","[Faith] cost of purchasing items in cities [-20]%","[+3 Gold, +3 Culture] from every [Holy site]"],
+		"cities": ["Piety"]
+	},
+	{
+		"name": "Rationalism",
+		"leaderName": "Rationalism",
+		"adjective": ["Rationalism"],
+		"startBias": ["Grassland","Plains","Hills","Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		
+		"uniques": ["[+15]% [Science] <while the empire is happy>","[+2 Science] from every specialist [in all cities]","[+1 Happiness] from every [University]",
+                    	   "[+1 Happiness] from every [Observatory]","[+1 Happiness] from every [Public School]","[+1 Science] from every [Trading post]",
+                    	   "[+17]% [Science] from every [University]","[+1 Gold] from all [Science] buildings","Science gained from research agreements [+50]%",
+			   "[2] Free Technologies",
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
+		"cities": ["Rationalism"]
+	},
+	{
+		"name": "Freedom",
+		"leaderName": "Freedom",
+		"adjective": ["Freedom"],
+		"startBias": ["Grassland","Plains","Hills","Coast"],
+
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "This ship may sink, but our spirits will linger.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		
+		"uniques": [
+		"cities": ["Freedom"]
+	},
+	{
+		"name": "Autocracy",
+		"leaderName": "Autocracy",
+		"adjective": ["Autocracy"],
+		"startBias": ["Grassland","Plains","Hills","Coast"],
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Autocracy"]
+	},
+	{
+		"name": "Order",
+		"leaderName": "Order",
+		"adjective": ["Order"],
+		"startBias": ["Grassland","Plains","Hills","Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Order"]
+	},
 		//CityStates
+	},	
 		{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
