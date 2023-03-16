@@ -583,7 +583,7 @@
 		"innerColor": [198,140,64],
 
 		"uniqueName": "Nature's Happiness",
-		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]","[-20]% Culture cost of adopting new Policies",
+		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]","[-20]% Culture cost of adopting new Policies","Starts with [Pottery]",
 			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
