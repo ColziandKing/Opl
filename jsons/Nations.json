@@ -711,7 +711,6 @@
 		"uniques": ["[+15]% [Science] <while the empire is happy>","[+2 Science] from every specialist [in all cities]","[+1 Happiness] from every [University]",
                     	   "[+1 Happiness] from every [Observatory]","[+1 Happiness] from every [Public School]","[+1 Science] from every [Trading post]",
                     	   "[+17]% [Science] from every [University]","[+1 Gold] from all [Science] buildings","Science gained from research agreements [+50]%",
-			   "[2] Free Technologies",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
 		"cities": ["Rationalism"]
 	},
@@ -727,7 +726,11 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		
-		"uniques": [
+		"uniques": ["[+25]% Great Person generation [in all cities]","[+2 Culture] from every [Wonder]","[-50]% Food consumption by specialists [in all cities]",
+			   "[+33]% Strength for cities <when defending>","[8] units cost no maintenance","[-50]% Unhappiness from [Specialists] [in all cities]",
+			    "[+100]% Yield from every [Great Improvement]",
+                    "[+50]% Golden Age length",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
 		"cities": ["Freedom"]
 	},
 	{
@@ -740,6 +743,13 @@
 		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
+		
+		"uniques": ["[-33]% maintenance costs <for [All] units>","Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+			   "[+25]% Strength <for [Wounded] units>","[Gold] cost of purchasing [All] units [-33]%","Quantity of strategic resources produced by the empire +[100]%",
+                    	   "[+2] Movement <for [Great General] units>","[+3 Happiness] from every [Courthouse]","[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+			   "[+25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience [in all cities]",
+			   "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 		"cities": ["Autocracy"]
 	},
 	{
@@ -753,11 +763,17 @@
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,153,255],
+		
+		"uniques": ["[+1 Happiness] [in all cities]","Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+			   "[+25]% [Science] from every [Factory]","[+100]% Production when constructing [Factory] buildings [in all cities]",
+			   "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-15]% maintenance cost for buildings [in all cities]",
+			   "[+2 Production] [in all cities]","[+1 Production] from every [Mine]","[+1 Production] from every [Quarry]",
+			   "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
 		"cities": ["Order"]
 	},
 		//CityStates
-	},	
-		{
+	{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
 		"cityStateType": "Militaristic",
