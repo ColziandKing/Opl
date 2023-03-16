@@ -675,7 +675,7 @@
 		"innerColor": [185,12,12],
 
 		"uniqueName": "Angry",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills"],
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","Militaristic City-States grant units [3] times as fast when you are at war with a common nation"],
 
 		"cities": ["DED","ISH","FUT","ILE"]
 	},
@@ -753,30 +753,11 @@
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
 		"cities": ["Autocracy"]
 	},
-	{
-		"name": "Order",
-		"leaderName": "Order",
-		"adjective": ["Order"],
-		"startBias": ["Grassland","Plains","Hills","Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,255],
-		
-		"uniques": ["[+1 Happiness] [in all cities]","Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-			   "[+25]% [Science] from every [Factory]","[+100]% Production when constructing [Factory] buildings [in all cities]",
-			   "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-15]% maintenance cost for buildings [in all cities]",
-			   "[+2 Production] [in all cities]","[+1 Production] from every [Mine]","[+1 Production] from every [Quarry]",
-			   "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
-		"cities": ["Order"]
-	},
 		//CityStates
 	{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
+		"cityStateType": "Militaristic",
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
