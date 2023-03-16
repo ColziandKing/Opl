@@ -2,6 +2,7 @@
   {
         "name": "Zenperial",
         "era": "Modern era",
+        "uniqueTo": "Colziand",
         "priorities": {
             "Neutral": 60,
             "Cultural": 50,
