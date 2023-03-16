@@ -2,6 +2,6 @@
     {
         "name": "Lord's Blessing",
         "type": "Pantheon",
-        "uniques": ["[+5 Science, +5 Food, +5 Gold, +5 Production, +5 Culture, +5 Faith, +5 Happiness] from [All] tiles [in all cities]"]
+        "uniques": ["[+10 Science, +10 Food, +10 Gold, +10 Production, +10 Culture, +10 Faith, +10 Happiness] from [All] tiles [in all cities]"]
     }
   ]
