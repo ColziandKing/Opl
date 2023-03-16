@@ -749,7 +749,7 @@
                     	   "[+2] Movement <for [Great General] units>","[+3 Happiness] from every [Courthouse]","[+100]% Production when constructing [Courthouse] buildings [in all cities]",
 			   "[+25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience [in all cities]",
 			   "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
 		"cities": ["Autocracy"]
 	},
 	{
