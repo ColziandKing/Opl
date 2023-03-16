@@ -256,6 +256,14 @@
 		"requiredTech": "Plastics"
 		"maintenance": 4,
 	},
+	{
+        "name": "Greenhouse",
+        "cost": 100,
+        "food": 2,
+	"uniques": ["[+1 Food] from [Mountain] tiles [in this city]","[+1 Food] from [Desert] tiles [in this city]","[+1 Food] from [Tundra] tiles [in this city]","[+1 Food] from [Snow] tiles [in this city]"],
+        "maintenance": 2,
+	"requiredTech": "The Wheel"
+    },
 	//Salveo
 	{
 		"name": "Walls of Babylon",
@@ -330,12 +338,12 @@
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
-	//
+	//Magroonaguio
 	{
 		"name": "Mughal Fort",
 		"cost": 150,
 		"replaces": "Castle",
-		"uniqueTo": "Salveo",
+		"uniqueTo": "Magroonaguio",
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"culture": 2,
@@ -344,10 +352,11 @@
 		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
+	//Relmorgius
 	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
-		"uniqueTo": "Salumi",
+		"uniqueTo": "Relmorgius",
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
@@ -357,10 +366,11 @@
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	//Orlegciuhn
 	{
 		"name": "Satrap's Court",
 		"replaces": "Bank",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Orlegciuhn",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
@@ -372,7 +382,7 @@
 {
 		"name": "Coffee House",
 		"replaces": "Windmill",
-		"uniqueTo": "Suzainswellia",
+		"uniqueTo": "Orlegciuhn",
 		"production": 2,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
@@ -381,11 +391,22 @@
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
-    //BNW//
+	{
+        "name": "Hanse",
+        "replaces": "Bank",
+        "uniqueTo": "Orlegciuhn",      
+        "gold": 2,
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 15,
+        "uniques": ["[+5]% [Production] [in this city]",
+            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
+        "requiredTech": "Banking"
+    },
+    //Arxemlio
     {
 		"name": "Royal Library",
 		"replaces": "Library",
-		"uniqueTo": "Salumi",
+		"uniqueTo": "Arxemlio",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience [in this city]"],
@@ -394,7 +415,7 @@
 	   {
         "name": "Ducal Stable", 
         "replaces": "Stable",
-        "uniqueTo": "Colziand",
+        "uniqueTo": "Arxemlio",
         "cost": 75,
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
@@ -405,20 +426,22 @@
 			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
         "requiredTech": "Horseback Riding"
     },
+	//Cannetalhion
     {
         "name": "Ikanda", 
         "replaces": "Barracks",
-        "uniqueTo": "Salveo",
+        "uniqueTo": "Cannetalhion",
         "cost": 75,
         "hurryCostModifier": 25,
         "maintenance": 1,
 		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Blitz] promotion"],
         "requiredTech": "Bronze Working"
     },
+	//Eisnia Archipelago
 	    {
         "name": "Candi", 
         "replaces": "Garden",
-        "uniqueTo": "Suzainswellia",
+        "uniqueTo": "Eisnia Archipelago",
         "cost": 120,
         "faith": 3,
         "uniques": ["[+25]% great person generation [in this city]"],
@@ -426,18 +449,20 @@
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
     },
-	    {
-        "name": "Hanse",
-        "replaces": "Bank",
-        "uniqueTo": "Suzainswellia",      
-        "gold": 2,
-        "specialistSlots": {"Merchant": 1},
-        "hurryCostModifier": 15,
-        "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
-        "requiredTech": "Banking"
-    },
-	//Ancient
+	//Yanzerhan
+{
+		"name": "Sphinx Gate",
+		"replaces": "Courthouse",
+		"uniqueTo": "Chediluen", 
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"cost": 120,
+		"maintenance": 4,
+		"culture": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities","New [Military] units start with [10] Experience [in this city]"],
+		"requiredTech": "Construction"
+	},
     {
 		"name": "Ziggurat",
 		"replaces": "Temple",
@@ -452,10 +477,11 @@
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Construction"
 	},
+	//Chediluen
 	{
 		"name": "Synagogue",
 		"replaces": "Temple",
-		"uniqueTo": "Eisnia Archipelago", 
+		"uniqueTo": "Chediluen", 
 		"faith": 2,
 		"happiness": 1,
 		"gold": 2,
@@ -464,23 +490,11 @@
 		"requiredBuilding": "Shrine"
 		"requiredTech": "Theology"
 	},
-	{
-		"name": "Sphinx Gate",
-		"replaces": "Courthouse",
-		"uniqueTo": "Chediluen", 
-		"cityStrength": 2,
-		"cityHealth": 25,
-		"cost": 120,
-		"maintenance": 4,
-		"culture": 1,
-		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities","New [Military] units start with [10] Experience [in this city]"],
-		"requiredTech": "Construction"
-	},
+	//Azibhania Empire
 	{
 		"name": "Khachkar",
 		"replaces": "Shrine",
-		"uniqueTo": "Eisnia Archipelago", 
+		"uniqueTo": "Azibhania Empire", 
 		"faith": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
@@ -489,7 +503,7 @@
 		{
 		"name": "Slave Market",
 		"replaces": "Market",
-		"uniqueTo": "Umiratie Emirate",
+		"uniqueTo": "Azibhania Empire",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"gold": 4,
