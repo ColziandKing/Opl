@@ -11,7 +11,7 @@
 		"cityStrength": 2,
 		"cost": 100,
 		"uniqueTo": "Colziand",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"requiredTech": "Iron Working"
 		"uniques": ["Free Social Policy","Only available [Palace] in this city","Gain a free [Stele] [in this city]","Gain a free [Pyramid] [in this city]",
 			   "Gain a free [Paper Maker] [in this city]","Gain a free [Walls of Babylon] [in this city]","Gain a free [Floating Gardens] [in this city]",
@@ -20,7 +20,7 @@
 	},
 {
 		"name": "Empire Atrium",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"happiness": 2,
 		"production": 6,
 		"science": 2,
@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "Domain Amplitude",
-		"isNationalWonder": true,
+		"isWonder": true,
 		"happiness": 3,
 		"production": 9,
 		"science": 3,
@@ -55,10 +55,46 @@
 			   "[1] free [Sea Beggar] units appear","[1] free [Ship of the Line] units appear","[1] free [Sipahi] units appear",
 			   "[1] free [Hakkapeliitta] units appear","[1] free [Turtle Ship] units appear"],
 	},
+	{
+		"name": "Stronghold",
+		"uniqueTo": "Colziand",
+		"replaces": "Barracks",
+		"hurryCostModifier": 35,
+		"gold": 200,
+		"science": 3,
+		"maintenance": 5,
+		"uniques": ["New [Military] units start with [1000] Experience [in this city]","Destroyed when the city is captured","[1] free [Khan] units appear",
+			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","Gain a free [Krepost] [in this city]"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Treasure District",
+		"production": 5,
+		"science": 5,
+		"gold": 5,
+		"culture": 5,
+		"faith": 5,
+		"happiness": 5,
+		"cityStrength": 5,
+		"cost": 0,
+		"uniqueTo": "Colziand",
+		"greatPersonPoints": {"Great Scientist": 10, "Great General": 10, "Great Engineer": 10, "Great Artist": 10, "Great Merchant": 10, "Great Prophet": 10},
+		"requiredTech": "Agriculture"
+		"maintenance": 0,
+		"uniques": ["Only available [Palace] in this city","[1] free [War Elephant] units appear",
+		           "[1] free [Persian Immortal] units appear","[1] free [Battering Ram] units appear"],
+	},
+	{
+        	"name": "More Resources",
+        	"isNationalWonder": "true",
+		"uniqueTo": "Colziand",
+        	"cost": -1,
+        	"uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced","Only available [Palace] in this city","Will not be displayed in Civilopedia"],     
+   	 },
 	// Fullysia
 	{
 		"name": "Fullysianth Chant",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Fullysia",
 		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 3,
@@ -69,20 +105,41 @@
 			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear"],
 		"requiredTech": "Banking"
 	},
+{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "Fullysia",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
 	// Suzainswellia
 	{
 		"name": "Suzainswellia Academy",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Suzainswellia",
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"requiredBuilding": "Armory",
 		"uniques": ["New [Military] units start with [50] Experience [in this city]", "Destroyed when the city is captured", "[1] free [Foreign Legion] units appear"],
 		"requiredTech": "Military Science"
 	},
-	// Modern Era
 	{
-		"name": "Orlegciuhn Restau",
-		"uniqueTo": "Colziand",
+		"name": "Floating Gardens",
+		"replaces": "Water Mill",
+		"uniqueTo": "Suzainswellia",
+		"food": 2,
+		"production": 1,
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 15},
+		"requiredTech": "The Wheel"
+	},
+	// Jerdain & Syndria
+	{
+		"name": "Jerdain Restau",
+		"uniqueTo": "Jerdain Organization",
 		"culture": 3,
 		"percentStatBonus": {"culture": 44},
 		"requiredBuilding": "Museum",
@@ -91,8 +148,8 @@
 		"uniques": ["Destroyed when the city is captured","[1] free [Zero] units appear","[1] free [B17] units appear","[1] free [Panzer] units appear"]
 	},
 	{
-		"name": "Mossad",
-		"uniqueTo": "Colziand",
+		"name": "Happssy",
+		"uniqueTo": "Syndria Operations",
 		"replaces": "Broadcast Tower",
 		"culture": 3,
 		"happiness": 3,
@@ -102,27 +159,61 @@
 		"requiredTech": "Radio",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-	// Atomic Era
+	// Salumi
 	{
 		"name": "Salumian Center",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Salumi",
 		"production": 5,
 		"percentStatBonus": {"production": 15},
 		"requiredBuilding": "Factory",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+		"uniques": ["Provides [2] [Aluminum]"]
 	},
-	// Information Era
+{
+		"name": "Stele",
+		"replaces": "Monument",
+		"uniqueTo": "Salumi",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+	},
+	// Rhuffelj
 	{
 		"name": "Rhuffelj Homes",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Rhuffelj",
 		"cost": 400,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
 		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]"]
 	},
-	// All Eras
+{
+		"name": "Mud Pyramid Mosque",
+		"replaces": "Temple",
+		"uniqueTo": "Rhuffelj",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"culture": 2,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
+		"uniques": ["Provides [2] [Jewelry]","Double quantity of [Jewelry] produced",]
+	},
+{
+		"name": "Pyramid",
+		"replaces": "Shrine",
+		"uniqueTo": "Rhuffelj",
+		"faith": 2,
+		"science": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled","Provides [2] [Porcelain]","Double quantity of [Porcelain] produced",]
+	},
+	// All 
 	{
 		"name": "Carnival",
 		"happiness": 2,
@@ -165,85 +256,7 @@
 		"requiredTech": "Plastics"
 		"maintenance": 4,
 	},
-	{
-		"name": "Stronghold",
-		"uniqueTo": "Colziand",
-		"hurryCostModifier": 35,
-		"gold": 200,
-		"science": 3,
-		"maintenance": 5,
-		"uniques": ["New [Military] units start with [1000] Experience [in this city]","Destroyed when the city is captured","[1] free [Khan] units appear",
-			    "All newly-trained [relevant] units [in this city] receive the [Blitz] promotion","Gain a free [Krepost] [in this city]"],
-		"requiredTech": "Bronze Working"
-	},
-	{
-		"name": "Treasure District",
-		"production": 10,
-		"science": 10,
-		"gold": 10,
-		"culture": 10,
-		"faith": 10,
-		"happiness": 10,
-		"cityStrength": 20,
-		"cost": 0,
-		"uniqueTo": "Colziand",
-		"greatPersonPoints": {"Great Scientist": 50, "Great General": 50, "Great Engineer": 50, "Great Artist": 50, "Great Merchant": 50, "Great Prophet": 50},
-		"requiredTech": "Agriculture"
-		"maintenance": 0,
-		"uniques": ["Only available [Palace] in this city","[1] free [War Elephant] units appear",
-		           "[1] free [Persian Immortal] units appear","[1] free [Battering Ram] units appear"],
-	},
-	{
-        	"name": "More Resources",
-        	"isNationalWonder": "true",
-		"uniqueTo": "Colziand",
-        	"cost": -1,
-        	"uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced","Only available [Palace] in this city","Will not be displayed in Civilopedia"],     
-   	 },
-	//Original
-	 {
-		"name": "Stele",
-		"replaces": "Monument",
-		"uniqueTo": "Salumi",
-		"culture": 2,
-		"faith": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
-	},
-  {
-		"name": "Pyramid",
-		"replaces": "Shrine",
-		"uniqueTo": "Colziand",
-		"faith": 2,
-		"science": 2,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
-	},
-	{
-		"name": "Paper Maker",
-		"replaces": "Library",
-		"uniqueTo": "Fullysia",
-		"hurryCostModifier": 25,
-		"gold": 2,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Writing"
-	},
-	{
-		"name": "Floating Gardens",
-		"replaces": "Water Mill",
-		"uniqueTo": "Suzainswellia",
-		"food": 2,
-		"production": 1,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"percentStatBonus": {"food": 15},
-		"requiredTech": "The Wheel"
-	},
+	//Salveo
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
@@ -258,17 +271,18 @@
 	{
 		"name": "Krepost",
 		"replaces": "Barracks",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Salveo",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
+	//Umiratie
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
-		"uniqueTo": "Suzainswellia",
+		"uniqueTo": "Umiratie Dynasty",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
@@ -277,21 +291,11 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
-	{
-		"name": "Mud Pyramid Mosque",
-		"replaces": "Temple",
-		"uniqueTo": "Salveo",
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"culture": 2,
-		"faith": 2,
-		"requiredBuilding": "Shrine",
-		"requiredTech": "Philosophy"
-	},
+	
 	{
 		"name": "Bazaar",
 		"replaces": "Market",
-		"uniqueTo": "Salumi",
+		"uniqueTo": "Umiratie Dynasty",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -300,10 +304,11 @@
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
+	//Palneothic
 	{
 		"name": "Longhouse",
 		"replaces": "Workshop",
-		"uniqueTo": "Fullysia",
+		"uniqueTo": "Palneothic",
 		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
@@ -315,7 +320,7 @@
 	{
 		"name": "Wat",
 		"replaces": "University",
-		"uniqueTo": "Fullysia",
+		"uniqueTo": "Palneothic",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -325,6 +330,7 @@
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
 	},
+	//
 	{
 		"name": "Mughal Fort",
 		"cost": 150,
@@ -406,7 +412,7 @@
         "cost": 75,
         "hurryCostModifier": 25,
         "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Blitz] promotion"],
         "requiredTech": "Bronze Working"
     },
 	    {
