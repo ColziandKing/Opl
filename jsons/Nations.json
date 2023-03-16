@@ -123,7 +123,8 @@
 		"uniques": ["Cannot build [Settler] units","New [Military] units start with [50] Experience","[+30]% Strength <vs [Barbarian] units>",
 			    "Receive a free [Great General] when you discover [Horseback Riding]","Great General provides double combat bonus", 
 			    "Receive triple Gold from Barbarian encampments and pillaging Cities", "[Great General] is earned [50]% faster","[-20]% Culture cost of adopting new Policies",
-			    "\"Borrows\" city names from other civilizations in the game","[+30]% Strength for cities <when attacking>"],
+			    "\"Borrows\" city names from other civilizations in the game","[+30]% Strength for cities <when attacking>",
+			    "Militaristic City-States grant units [3] times as fast when you are at war with a common nation"],
 
 		"cities": ["Magroonaguio"]
 	},
@@ -582,7 +583,7 @@
 		"innerColor": [198,140,64],
 
 		"uniqueName": "Nature's Happiness",
-		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]","[-40]% Culture cost of adopting new Policies",
+		"uniques": ["Provides [2] [Porcelain]","Provides [2] [Jewelry]","[-20]% Culture cost of adopting new Policies",
 			   "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
@@ -613,7 +614,7 @@
 		"innerColor": [0,0,0],
 
 		"uniqueName": "Mechanical Marvel",
-		"uniques": ["[+2 Happiness] from every [Mountain]","[-50]% maintenance on road & railroads","[-40]% Culture cost of adopting new Policies",
+		"uniques": ["[+2 Happiness] from every [Mountain]","[-50]% maintenance on road & railroads","[-20]% Culture cost of adopting new Policies",
 			"No Maintenance costs for improvements in [Hill] tiles",
 			    "[+20]% Production towards any buildings that already exist in the Capital","[Military] units gain the [Charge] promotion",
 			   "[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
@@ -647,111 +648,10 @@
 		"uniqueName": "Revolutionary Achievements",
 		"uniques": ["+[25]% strength for [Wounded] units","[+1 Happiness, +1 Culture] from every [Barracks]","[+1 Food] from every [Plantation]",
 			   "[-20]% Culture cost of adopting new Policies","[+2 Culture] from every [Camps]","Starts with [Rifling]","[+2 Science] from every [Snow]",
-			   "[+2 Science] from every [Ice]","[+1 Science] from every [Coast]","[-40]% Culture cost of adopting new Policies"],
+			   "[+2 Science] from every [Ice]","[+1 Science] from every [Coast]","[-20]% Culture cost of adopting new Policies",
+			   "[-33]% maintenance costs <for [All] units>","Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"],
 
 		"cities": ["Dome Headquarters","Totem Bunkerbase","Polebind"]
-	},
-		//Special
-	{
-		"name": "Barbarians",
-		"leaderName": "Grrrrr",
-		"adjective": ["Grg"],
-		"startBias": ["Forest"],
-
-		"startIntroPart1": "Rise up O' mother of Palneothic. Cradle of its civilization, your husband has rounded up the surrounding people and got rid of pagan lifestyles. Coming from another world, he gave us gentiles hope by letting us know the Father and taught us education.",
-		"startIntroPart2": "Will you continue to build what your husband has built for us?",
-
-		"declaringWar": "We may not be advance but prepare for defeat!",
-		"attacked": "We may not be advance but prepare for defeat!",
-		"defeated":  "I beg that you secure our future.",
-		"introduction":  "Hello, are from an advance civilization? We may not be much but lets be friends",
-		"neutralHello": "Hi friends.",
-		"hateHello": "Leave us, we will not submit just because were not advance.",
-		"hateLetsHearIt": "We will stone you!",
-		"afterPeace": "Better be not after our stones again.",
-		"tradeRequest": "We bring you gifts from our wonderful lands.",
-
-	        "outerColor": [0,0,0],
-		"innerColor": [185,12,12],
-
-		"uniqueName": "Angry",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","Militaristic City-States grant units [3] times as fast when you are at war with a common nation"],
-
-		"cities": ["DED","ISH","FUT","ILE"]
-	},
-	{
-		"name": "Piety",
-		"leaderName": "Piety",
-		"adjective": ["Piety"],
-		"startBias": ["Grassland","Plains","Hills","Coast"],
-
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [198,255,192],
-
-		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]","[+100]% Production when constructing [Temple] buildings [in all cities]",
-			   "[+1 Faith] from every [Shrine]","[+1 Faith] from every [Temple]","[50]% of excess happiness converted to [Culture]",
-			   "[+10]% [Gold] from every [Temple]","[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age",
-			   "[-10]% Culture cost of adopting new Policies","[Faith] cost of purchasing items in cities [-20]%","[+3 Gold, +3 Culture] from every [Holy site]"],
-		"cities": ["Piety"]
-	},
-	{
-		"name": "Rationalism",
-		"leaderName": "Rationalism",
-		"adjective": ["Rationalism"],
-		"startBias": ["Grassland","Plains","Hills","Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [224,224,224],
-		
-		"uniques": ["[+15]% [Science] <while the empire is happy>","[+2 Science] from every specialist [in all cities]","[+1 Happiness] from every [University]",
-                    	   "[+1 Happiness] from every [Observatory]","[+1 Happiness] from every [Public School]","[+1 Science] from every [Trading post]",
-                    	   "[+17]% [Science] from every [University]","[+1 Gold] from all [Science] buildings","Science gained from research agreements [+50]%",
-                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
-		"cities": ["Rationalism"]
-	},
-	{
-		"name": "Freedom",
-		"leaderName": "Freedom",
-		"adjective": ["Freedom"],
-		"startBias": ["Grassland","Plains","Hills","Coast"],
-
-		"declaringWar": "We don't like your face. To arms!",
-		"attacked": "You will see you have just bitten off more than you can chew.",
-		"defeated": "This ship may sink, but our spirits will linger.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		
-		"uniques": ["[+25]% Great Person generation [in all cities]","[+2 Culture] from every [Wonder]","[-50]% Food consumption by specialists [in all cities]",
-			   "[+33]% Strength for cities <when defending>","[8] units cost no maintenance","[-50]% Unhappiness from [Specialists] [in all cities]",
-			    "[+100]% Yield from every [Great Improvement]",
-                    "[+50]% Golden Age length",
-                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
-		"cities": ["Freedom"]
-	},
-	{
-		"name": "Autocracy",
-		"leaderName": "Autocracy",
-		"adjective": ["Autocracy"],
-		"startBias": ["Grassland","Plains","Hills","Coast"],
-		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
-		"attacked": "You can see how fruitless this will be for you... right?",
-		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
-		
-		"uniques": ["[-33]% maintenance costs <for [All] units>","Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-			   "[+25]% Strength <for [Wounded] units>","[Gold] cost of purchasing [All] units [-33]%","Quantity of strategic resources produced by the empire +[100]%",
-                    	   "[+2] Movement <for [Great General] units>","[+3 Happiness] from every [Courthouse]","[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-			   "[+25]% Production when constructing [Military] units [in all cities]","New [Military] units start with [15] Experience [in all cities]",
-			   "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"],
-		"cities": ["Autocracy"]
 	},
 		//CityStates
 	{
