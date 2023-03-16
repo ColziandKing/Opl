@@ -678,7 +678,8 @@
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills"],
 
 		"cities": ["DED","ISH","FUT","ILE"]
-		{
+	},
+	{
 		"name": "Piety",
 		"leaderName": "Piety",
 		"adjective": ["Piety"],
