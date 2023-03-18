@@ -371,25 +371,10 @@
 		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
-	//Relmorgius
-	{
-		"name": "Ceilidh Hall",
-		"replaces": "Opera House",
-		"uniqueTo": "Relmorgius",
-		"culture": 4,
-		"happiness": 3,
-		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 10,
-		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
-		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	//Orlegciuhn
 	{
 		"name": "Satrap's Court",
 		"replaces": "Bank",
-		"uniqueTo": "Orlegciuhn",
+		"uniqueTo": "Magroonaguio",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
@@ -401,7 +386,7 @@
 {
 		"name": "Coffee House",
 		"replaces": "Windmill",
-		"uniqueTo": "Orlegciuhn",
+		"uniqueTo": "Magroonaguio",
 		"production": 2,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
@@ -410,41 +395,6 @@
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
-	{
-        "name": "Hanse",
-        "replaces": "Bank",
-        "uniqueTo": "Orlegciuhn",      
-        "gold": 2,
-        "specialistSlots": {"Merchant": 1},
-        "hurryCostModifier": 15,
-        "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
-        "requiredTech": "Banking"
-    },
-    //Arxemlio
-    {
-		"name": "Royal Library",
-		"replaces": "Library",
-		"uniqueTo": "Arxemlio",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience [in this city]"],
-		"requiredTech": "Writing"
-	},
-	   {
-        "name": "Ducal Stable", 
-        "replaces": "Stable",
-        "uniqueTo": "Arxemlio",
-        "cost": 75,
-        "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "hurryCostModifier": 25,
-        "uniques": ["New [Mounted] units start with [15] Experience [in this city]","[+15]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
-        "requiredTech": "Horseback Riding"
-    },
 	//Cannetalhion
     {
         "name": "Ikanda", 
@@ -455,6 +405,31 @@
         "maintenance": 1,
 		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Blitz] promotion"],
         "requiredTech": "Bronze Working"
+    },
+	{
+        "name": "Hanse",
+        "replaces": "Bank",
+        "uniqueTo": "Cannetalhion",      
+        "gold": 2,
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 15,
+        "uniques": ["[+5]% [Production] [in this city]",
+            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
+        "requiredTech": "Banking"
+    },
+	   {
+        "name": "Ducal Stable", 
+        "replaces": "Stable",
+        "uniqueTo": "Cannetalhion",
+        "cost": 75,
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+        "hurryCostModifier": 25,
+        "uniques": ["New [Mounted] units start with [15] Experience [in this city]","[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
+        "requiredTech": "Horseback Riding"
     },
 	//Eisnia Archipelago
 	    {
@@ -482,6 +457,15 @@
 		"uniques": ["Remove extra unhappiness from annexed cities","New [Military] units start with [10] Experience [in this city]"],
 		"requiredTech": "Construction"
 	},
+	{
+		"name": "Royal Library",
+		"replaces": "Library",
+		"uniqueTo": "Yanzerhan",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience [in this city]"],
+		"requiredTech": "Writing"
+	},
 	//Chediluen
 	{
 		"name": "Synagogue",
@@ -494,6 +478,19 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine"
 		"requiredTech": "Theology"
+	},
+	{
+		"name": "Ceilidh Hall",
+		"replaces": "Opera House",
+		"uniqueTo": "Chediluen",
+		"culture": 4,
+		"happiness": 3,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	//Azibhania Empire
 	{
