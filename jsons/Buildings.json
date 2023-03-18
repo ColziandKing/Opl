@@ -136,7 +136,7 @@
 		"percentStatBonus": {"food": 15},
 		"requiredTech": "The Wheel"
 	},
-	// Jerdain & Syndria
+	// Jerdain-Syndria 
 	{
 		"name": "Orlegciuhn Restau",
 		"uniqueTo": "Jerdain Organization",
