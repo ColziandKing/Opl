@@ -102,7 +102,7 @@
 		"percentStatBonus": {"gold": 30},
 		"requiredBuilding": "Market",
 		"uniques": ["[1] free [Norwegian Ski Infantry] units appear","[1] free [Mehal Sefari] units appear","[1] free [Cossack] units appear",
-			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear"],
+			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear",["Provides [2] [Amethyst]","Double quantity of [Amethyst] produced"],
 		"requiredTech": "Banking"
 	},
 {
@@ -130,7 +130,7 @@
 		"uniqueTo": "Suzainswellia",
 		"food": 2,
 		"production": 1,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]",["Provides [2] [Boswellia]","Double quantity of [Boswellia] produced"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
@@ -138,7 +138,7 @@
 	},
 	// Jerdain & Syndria
 	{
-		"name": "Jerdain Restau",
+		"name": "Orlegciuhn Restau",
 		"uniqueTo": "Jerdain Organization",
 		"culture": 3,
 		"percentStatBonus": {"culture": 44},
@@ -200,7 +200,7 @@
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy",
-		"uniques": ["Provides [2] [Jewelry]","Double quantity of [Jewelry] produced",]
+		"uniques": ["Provides [2] [Jewelry]","Double quantity of [Jewelry] produced"]
 	},
 {
 		"name": "Pyramid",
@@ -211,14 +211,13 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled","Provides [2] [Porcelain]","Double quantity of [Porcelain] produced",]
+		"uniques": ["Hidden when religion is disabled","Provides [2] [Porcelain]","Double quantity of [Porcelain] produced"]
 	},
 	// All 
 	{
 		"name": "Carnival",
 		"happiness": 2,
 		"faith": 2,
-		"requiredTech": "Future Tech"
 		"maintenance": 4,
 		"requiredTech": "Plastics"
 	},
@@ -311,6 +310,20 @@
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
+	},
+	{
+		"name": "Ziggurat",
+		"replaces": "Temple",
+		"uniqueTo": "Umiratie Dynasty", 
+		"maintenance": 3,
+		"faith": 1,
+		"science": 1,
+		"specialistSlots": {"Scientist": 1},
+		"cost":120,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] from [River] tiles [in this city]","1 Scientist slot"],
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Construction"
 	},
 	//Palneothic
 	{
@@ -453,7 +466,7 @@
 {
 		"name": "Sphinx Gate",
 		"replaces": "Courthouse",
-		"uniqueTo": "Chediluen", 
+		"uniqueTo": "Yanzerhan", 
 		"cityStrength": 2,
 		"cityHealth": 25,
 		"cost": 120,
@@ -461,20 +474,6 @@
 		"culture": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities","New [Military] units start with [10] Experience [in this city]"],
-		"requiredTech": "Construction"
-	},
-    {
-		"name": "Ziggurat",
-		"replaces": "Temple",
-		"uniqueTo": "Umiratie Emirate", 
-		"maintenance": 3,
-		"faith": 1,
-		"science": 1,
-		"specialistSlots": {"Scientist": 1},
-		"cost":120,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Faith] from [River] tiles [in this city]","1 Scientist slot"],
-		"requiredBuilding": "Shrine",
 		"requiredTech": "Construction"
 	},
 	//Chediluen
@@ -514,7 +513,7 @@
 	    {
 		"name": "Smeltery",
         "replaces": "Forge",
-		"uniqueTo": "Azibhania",
+		"uniqueTo": "Azibhania Empire",
         "maintenance": 1,
 		"production": 1,
         "hurryCostModifier": 25,
@@ -522,196 +521,5 @@
         "uniques": ["Provides [2] [Iron]","[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
-    },
-	//Old Medieval Mod\\
-    {
-        "name": "Deus Vult",
-	"uniqueTo": "Arxemlio",
-        "cost": -1,
-	"isNationalWonder": true,
-	"cannotBeBuiltWith": "Palace",
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Provides [5] [Guard]"]
-},
-{
-        "name": "Call the Crusade",
-        "uniqueTo": "Arxemlio",
-	"isNationalWonder": true,
-        "cost": -1,
-	"cannotBeBuiltWith": "Deus Vult",
-	"requiredBuilding": "Palace",
-        "providesFreeBuilding": "Deus Vult",
-	"requiredTech": "Theology",
-        "uniques": ["+20% attack bonus to all Military Units for 30 turns","Will not be displayed in Civilopedia"]
-	},
-	{
-        "name": "Saint Relics",
-        "uniqueTo": "Arxemlio",
-	"isNationalWonder": true,
-        "cost": -1,
-	"cannotBeBuiltWith": "Deus Vult",
-		"requiredBuilding": "Palace",
-        "providesFreeBuilding": "Deus Vult",
-	"requiredTech": "Theology",
-        "uniques": ["Will not be displayed in Civilopedia","[+1 Culture] from every [Great Improvement]","[+1 Gold] from every [Great Improvement]"]
-	},
-		{
-        "name": "Synod",
-        "uniqueTo": "Arxemlio",
-	"isNationalWonder": true,
-        "cost": -1,
-	"cannotBeBuiltWith": "Deus Vult",
-		"requiredBuilding": "Palace",
-        "providesFreeBuilding": "Deus Vult",
-	"requiredTech": "Theology",
-        "uniques": ["Will not be displayed in Civilopedia","[+1 Culture] Per [2] Population in this city"],
-	},
-	{
-	"name": "The Roof of the World",
-	"uniqueTo": "Relmorgius",
-	"cost": -1,
-	"providesFreeBuilding": "Garden",
-	"uniques": ["Will not be displayed in Civilopedia", "Must be next to [Mountain]"],
-	},
-	{
-	"name": "Social Change (Tradition)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 150,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Tradition]","Free Technology"],
-	},
-		{
-	"name": "Social Change (Liberty)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 150,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Liberty]","Free Technology"],
-	},
-		{
-	"name": "Social Change (Honor)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 150,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Honor]","Free Technology"],
-	},
-		{
-	"name": "Social Change (Piety)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 250,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Piety]","Free Technology"],
-	},
-		{
-	"name": "Social Change (Commerce)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 350,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Commerce]","Free Technology"],
-	},
-			{
-	"name": "Social Change (Rationalism)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 500,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Rationalism]","Free Technology"],
-	},
-			{
-	"name": "Social Change (Freedom)",
-	"uniqueTo": "Yanzerhan",
-	"isNationalWonder": true,
-	"cost": 500,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Freedom]","Free Technology"],
-	},
-			{
-	"name": "Social Change (Autocracy)",
-	"uniqueTo": "Cannetalhion",
-	"isNationalWonder": true,
-	"cost": 700,
-	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Requires [Autocracy]","Free Technology"],
-	},
-	{
-		"name": "Var",
-		"replaces": "Castle",
-		"uniqueTo": "Jerdain Organization", 
-		"cityStrength": 9,
-		"cityHealth": 50,
-		"hurryCostModifier": 25,
-       		"cost": 200,
-		"requiredBuilding": "Walls",
-		"requiredTech": "Civil Service"
-	},
-	{
-		"name": "Vihara",
-		"replaces": "Monastery",
-		"uniqueTo": "Palneothic", 
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-       		"cost": 160,
-		"uniques": ["[+1 Food] from [Jungle] tiles in this city","[+1 Culture] from [Jungle] tiles in this city"],
-		"requiredTech": "Theology"
-	},
-	{
-		"name": "Prasat",
-		"replaces": "Castle",
-		"uniqueTo": "Palneothic", 
-		"specialistSlots": {"Artist": 1, "Engineer": 1},
-       		"cost": 200,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"requiredTech": "Theology"
-	},
-{
-		"name": "Water Puppet Theatre",
-		"replaces": "Opera House",
-		"uniqueTo": "Suzainswellia", 
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 10,
-		"requiredBuilding": "Temple",
-		"maintenance": 2,
-		"uniques": ["[+2 Culture] from [Lakes] tiles in this city"]
-		"requiredTech": "Acoustics"
-	},
-
-		{
-		"name": "Winery",
-		"replaces": "Market",
-		"uniqueTo": "Magroonaguio",
-		"gold": 2,
-		"culture": 2,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Currency",
-		"uniques": ["[+3 Gold] from [Wine] tiles in this city"],
-	},
-		{
-		"name": "Kumbum",
-		"replaces": "Temple",
-		"uniqueTo": "Syndria Operations", 
-		"hurryCostModifier": 25,
-       	"cost": 120,
-		"culture": 1,
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["[+1 Culture] from [Hill] tiles in this city"],
-		"requiredTech": "Philosophy"
-	},
-	//New Medieval\\
-	{
-		"name": "Stave Church",
-		"replaces": "Temple",
-		"uniqueTo": "Chediluen",
-		"faith": 2,
-		"cost": 50,
-		"requiredTech": "Philosophy",
-	}
+    }
 ]
