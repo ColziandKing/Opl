@@ -35,68 +35,6 @@
 		"cities": ["Pantheor","Wavisii","Nubana","Nuraba"]
 	},
 	{
-		"name": "Relmorgius",
-		"leaderName": "Sally Xai Chengwon",
-		"adjective": ["Relmorgian"],
-		"startBias": ["Grassland"],
-  	        "preferredVictoryType": "Scientific",
-		"favoredReligion": "Taoism",
-
-		"startIntroPart1": "Beauty and geekiness are your traits empress. Assigned by Raymond to govern the land of humans and semi-humans, many children you bore and leaders they become.",
-		"startIntroPart2": "Dear Sally. The kingdom is at its peak so lets continue.",
-		
-		"declaringWar": "Your blood disgust me!",
-		"attacked": "Disgusting! Wait and see.",
-		"defeated":  "I surrender, I assure you that my people will follow you.",
-		"introduction":  "Nihao. We bless you.",
-		"neutralHello": "Nihao.",
-		"hateHello": "We curse you!",
-		"hateLetsHearIt": "We curse you! But let's hear it.",
-		"afterPeace": "Peace be with you, let's not scar each other again.",
-		"tradeRequest": "I thought you might be intested in this.",
-
-	        "outerColor": [26,32,96],
-		"innerColor": [255,0,0],
-
-		"uniqueName": "Ages of Dynasty",
-		"uniques": ["Starts with [Writing]","[+1] Sight <for [{Military} {Land}] units>", "[-50]% Gold cost of acquiring tiles [in all cities]",
-			   "[+50]% [Culture] [in all cities] <during a Golden Age>","[Great Artist] is earned [50]% faster <during a Golden Age>","[-20]% Culture cost of adopting new Policies",
-			   "[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
-
-		"cities": ["Banjheong-Fuojin","FormerSlaveCamp Village","Hedoyu"]
-	},
-	{
-		"name": "Arxemlio",
-		"leaderName": "Cashvew Jerome Alkansyavo",
-		"adjective": ["Xemlions"],
-		"startBias": ["Oasis","Desert"],
-  	        "preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Zoroastrianism",
-
-		"startIntroPart1": "Greetings president. Now is the time to bring together the forgotten and lost back together. Lets make the sand into grass and feed the hungry.",
-		"startIntroPart2": "This is it, God is guiding us so that we are able to return to the grand times of life.",
-		
-		"declaringWar": "I see that you are showing bad influence, I must put a stop to it.",
-		"attacked": "I see that you are showing bad influence, I must put a stop to it.",
-		"defeated":  "I surrender, I assure you that my people will follow you.",
-		"introduction":  "Shalom! Eikh ha'yom shelkha?",
-		"neutralHello": "Long time no see.",
-		"hateHello": "Its not nice to see you, how's it going?",
-		"hateLetsHearIt": "You better be ending this.",
-		"afterPeace": "May God bless you for this end of war.",
-		"tradeRequest": "I thought of something, here.",
-
-	        "outerColor": [181, 232, 232],
-		"innerColor": [68,142,249],
-
-		"uniqueName": "Ancient Rebuilding",
-		"uniques": ["Starts with [Masonry]","[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced","[-20]% Culture cost of adopting new Policies",
-			   "[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
-			   "[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
-
-		"cities": ["Sengtek-Xivesotte","Na-Ur","Harim Ar"]
-	},
-	{
 		"name": "Magroonaguio",
 		"leaderName": "Magro Orsyerthum",
 		"adjective": ["Naguio"],
