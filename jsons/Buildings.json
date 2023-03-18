@@ -17,6 +17,7 @@
 			   "Gain a free [Paper Maker] [in this city]","Gain a free [Walls of Babylon] [in this city]","Gain a free [Floating Gardens] [in this city]",
 			   "Gain a free [Burial Tomb] [in this city]","Gain a free [Bazaar] [in this city]","Gain a free [Mud Pyramid Mosque] [in this city]",
 			   "[1] free [Companion Cavalry] units appear","[1] free [Legion] units appear","[1] free [Ballista] units appear"],
+		"quote": "'Here starts the rule in which it will lead us to the bright future.' - Colziand King" 
 	},
 {
 		"name": "Empire Atrium",
@@ -35,6 +36,7 @@
 			   "Gain a free [Wat] [in this city]","Gain a free [Longhouse] [in this city]","Gain a free [Mughal Fort] [in this city]",
 			   "[1] free [Conquistador] units appear","[1] free [Keshik] units appear","[1] free [Chu-Ko-Nu] units appear",
 			   "[1] free [Longbowman] units appear","[1] free [Samurai] units appear"],
+		"quote": "'Our expanse is going further beyond the horizon skies of fate.' - Colziand King" 
 	},
 	{
 		"name": "Domain Amplitude",
@@ -54,6 +56,7 @@
 			   "Gain a free [Satrap's Court] [in this city]","Gain a free [Coffee House] [in this city]","[1] free [Janissary] units appear",
 			   "[1] free [Sea Beggar] units appear","[1] free [Ship of the Line] units appear","[1] free [Sipahi] units appear",
 			   "[1] free [Hakkapeliitta] units appear","[1] free [Turtle Ship] units appear"],
+		"quote": "'Long it has started and now it still continues, our Lord leads us.' - Colziand King"
 	},
 	{
 		"name": "Stronghold",
@@ -69,6 +72,7 @@
 	},
 	{
 		"name": "Treasure District",
+		"isWonder": true,
 		"production": 5,
 		"science": 5,
 		"gold": 5,
@@ -83,13 +87,15 @@
 		"maintenance": 0,
 		"uniques": ["Only available [Palace] in this city","[1] free [War Elephant] units appear",
 		           "[1] free [Persian Immortal] units appear","[1] free [Battering Ram] units appear"],
+		"quote": "'Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also.' - Bible Matthew 6:19-21"
 	},
 	{
         	"name": "More Resources",
-        	"isNationalWonder": "true",
+        	"isWonder": "true",
 		"uniqueTo": "Colziand",
         	"cost": -1,
-        	"uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced","Only available [Palace] in this city","Will not be displayed in Civilopedia"],     
+        	"uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced","Only available [Palace] in this city","Will not be displayed in Civilopedia"], 
+		"quote": "'Remember this: Whoever sows sparingly will also reap sparingly, and whoever sows generously will also reap generously. Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.' - Bible 2 Corinthians 9:6-8"
    	 },
 	// Fullysia
 	{
