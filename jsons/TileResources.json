@@ -1,18 +1,14 @@
 [
   {
-		"name": "Myrrh",
+		"name": "Amethyst",
 		"resourceType": "Luxury",
 		"gold": 2,
-	},	
-		{
-		"name": "Frankincense",
-		"resourceType": "Luxury",
-		"gold": 2,
+	  	"production": 2,
 	},	
 			{
-		"name": "Terracotta",
+		"name": "Boswellia",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"culture": 1,
+		"culture": 2,
 	}
   ]
