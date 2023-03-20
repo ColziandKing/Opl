@@ -71,25 +71,6 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Treasure District",
-		"isWonder": true,
-		"production": 5,
-		"science": 5,
-		"gold": 5,
-		"culture": 5,
-		"faith": 5,
-		"happiness": 5,
-		"cityStrength": 5,
-		"cost": 0,
-		"uniqueTo": "Colziand",
-		"greatPersonPoints": {"Great Scientist": 10, "Great General": 10, "Great Engineer": 10, "Great Artist": 10, "Great Merchant": 10, "Great Prophet": 10},
-		"requiredTech": "Agriculture"
-		"maintenance": 0,
-		"uniques": ["Only available [Palace] in this city","[1] free [War Elephant] units appear",
-		           "[1] free [Persian Immortal] units appear","[1] free [Battering Ram] units appear"],
-		"quote": "'Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also.' - Bible Matthew 6:19-21"
-	},
-	{
         	"name": "More Resources",
         	"isWonder": "true",
 		"uniqueTo": "Colziand",
