@@ -89,7 +89,7 @@
 		"percentStatBonus": {"gold": 30},
 		"requiredBuilding": "Market",
 		"uniques": ["[1] free [Norwegian Ski Infantry] units appear","[1] free [Mehal Sefari] units appear","[1] free [Cossack] units appear",
-			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear","Provides [2] [Amethyst]","Double quantity of [Amethyst] produced"],
+			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear","Provides [2] [Gems]","Double quantity of [Gems] produced"],
 		"requiredTech": "Banking"
 	},
 {
@@ -117,7 +117,7 @@
 		"uniqueTo": "Suzainswellia",
 		"food": 2,
 		"production": 1,
-		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]","Provides [2] [Boswellia]","Double quantity of [Boswellia] produced"],
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]","Provides [2] [Incense]","Double quantity of [Incense] produced"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
