@@ -1,14 +1,8 @@
 [
   {
-		"name": "Amethyst",
-		"resourceType": "Luxury",
-		"gold": 2,
-	  	"production": 2,
-	},	
-			{
-		"name": "Boswellia",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"culture": 2,
+		"name": "Manna",
+		"resourceType": "Bonus",
+		"food": 2,
+	  	"faith": 2,
 	}
   ]
