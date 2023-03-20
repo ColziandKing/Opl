@@ -154,7 +154,8 @@
 		"uniqueName": "Matriarch Heart",
 		"uniques": ["+1 Culture, +1 Happiness] from [All] tiles [in all cities]","Starts with [Calendar]","[+3 Gold] from every [Luxury resource]",
 			   "[+2 Culture] from every [Plantation]","[+1 Gold] from every [Plantation]","[+1 Food] from every [Plantation]","Receive a free Social Policy when you advance to the next era",
-			   "[+20]% Strength <when fighting units from a Civilization with more Cities than you>","[-20]% Culture cost of adopting new Policies"],
+			   "[+20]% Strength <when fighting units from a Civilization with more Cities than you>","[-20]% Culture cost of adopting new Policies",
+			   "Provides [1] [Citrus]","Provides [1] [Sugar]"],
 
 		"cities": ["Saludon","Saludonio","Libro Saldos","Saludos","Villavicencio", "Medellin","Cali", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", 
 			   "Sophia", "Leticia","Sal Kristell","Sal Kristina","Paula","Libra Saldine","Baconilla","Hamburger","Duke Baloney"]
@@ -187,7 +188,8 @@
 		"uniques": ["Starts with [Mining]","Starts with [Bronze Working]","[+1 Production] from [All] tiles [in all cities]",
 			   "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-25]% Culture cost of natural border growth [in all cities]",
 			   "[+3 Production] from every [Strategic resource]","[+20]% Production when constructing [All] wonders [in all cities]",
-			   "[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast","[-20]% Culture cost of adopting new Policies"],
+			   "[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast","[-20]% Culture cost of adopting new Policies",
+			   "Provides [1] [Marble]","Provides [1] [Stone]"],
 
 		"cities": ["Leonorre","Leo Volt","Seon-Voe","Leono","Leona","Le Nova","Sardaze"]
 	},
@@ -222,7 +224,7 @@
 			    "[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
 			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
 			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",
-			   "Provides [1] [Incense]","Provides [1] [Incense]"],
+			   "Provides [1] [Incense]","Provides [1] [Gems]"],
 
 		"cities": ["Buenlyssia","Gabina","Nicono","Pathrica","Diwayville","Jambini","Cassia","Lanita Yella"]
 	},
@@ -254,7 +256,7 @@
 		"uniques": ["Starts with [Animal Husbandry]","Starts with [The Wheel]","[+1 Faith] from [All] tiles [in all cities]",
 			   "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[-40]% Culture cost of adopting new Policies",
 			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation",
-			   "Provides [1] [Gems]","Provides [1] [Gems]"],
+			   "Provides [1] [Gems]","Provides [1] [Incense]"],
 
 		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
 	},
@@ -365,36 +367,6 @@
 			   "Units fight as though they were at full strength even when damaged","[+1 Culture] from every [Fishing Boats]","[+2 Culture] from every [Atoll]"]
 		"cities": ["Azibhania Fortspance","Uemsphire Citadel","Ravimines Deposit"]
 	},
-	{
-		"name": "Chediluen",
-		"leaderName": "Hollena Planeta",
-		"adjective": ["Chedis"],
-		"startBias": ["Grassland","Avoid [Tundra]"],
-		"preferredVictoryType": "Diplomatic",
-		
-		"startIntroPart1": "Ched Oh Ched it sure is awesome to be a Ched. Lead us dear woman, for our empire the Azibhania our friends is with us.",
-		"startIntroPart2": "It time to start, better calm yourself down. Breath in and out slowly.",					
-		
-		"declaringWar": "Hopefully news about you becoming ours will be widespread",
-		"attacked": "Your making this an issue.",
-		"defeated": "Fool! Azibhania will avenge us.",
-		"introduction": "How are you this day, we are glad to meet you, have you met our friends?",
-		"neutralHello": "Your fine this day, eh?",		
-		"neutralLetsHearIt": "Your showing us something nice?",
-		"neutralNo": "I sorry but I accept.",
-		"neutralYes": "You know how to do friendly negotiations",
-		"hateHello": "Definitely not approved!",
-		"tradeRequest": "My wonderful treatments are here.",
-		
-		"outerColor": [9, 112, 84],
-		"innerColor": [255,255,255],
-		"uniqueName": "Republic Freedom",
-		"uniques": ["Receive a free [Great Prophet] when you discover [Theology]","[+2 Food] from every [Mountain]",
-			   "May choose [1] additional belief(s) of any type when [founding] a religion","[-20]% Culture cost of adopting new Policies",
-			   "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
-			   "Damage is ignored when determining unit Strength <for [non-air] units>"]
-		"cities": ["Hopiia","Lantennant","Opolisia","Nagur Slopes","Lierharp"]
-	},
 		//Renaissance Civs
 	{
 		"name": "Eisnia Archipelago",
@@ -430,38 +402,6 @@
 			   "Retain [50]% of the happiness from a luxury after the last copy has been traded away",
 			   "[Land] units gain the [Amphibious] promotion", "Defense bonus when embarked <for [All] units>"],
 		"cities": ["Mukhakhatii","Gulalamaneia","Aweihura","Shire of Haitenua","Philippines","Malaysia","Guineas"]
-	},
-	{
-		"name": "Yanzerhan",
-		"leaderName": "Yanzer Hirothome",
-		"adjective": ["Hanites"],
-		"startBias": ["Coast","Oasis"],
-  	        "preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Buddhism",
-
-		"startIntroPart1": "We have been fighting for years now, we will remember the past but change our old ways.",
-		"startIntroPart2": "I hope we can alliance ourselves with many good and strong people, lead us son of greatness. I hear an empire called the rule, maybe they can help us.",
-
-		"declaringWar": "Your a threat we will stop you for the world.",
-		"attacked": "I will take over your land and make sure to rule it better.",
-		"defeated":  "We wanted a better future, but you destroyed us.",
-		"introduction":  "Bon, Welcome leader, are your good?",
-		"neutralHello": "Hello There.",
-		"hateHello": "No, I don't wanna hear it.?",
-		"hateLetsHearIt": "Now what?.",
-		"afterPeace": "I hope we go our seperate ways and find the future we hope for.",
-		"tradeRequest": "We have an offer.",
-
-	        "outerColor": [37,56,123],
-		"innerColor": [227,225,44],
-
-		"uniqueName": "Multiple Strengths",
-		"uniques": ["[+2 Science] in capital", "[+1 Science] in all cities","[+1 Culture] from every [Pasture]","[+1 Food] from every [Pasture]",
-			   "[+10]% Production when constructing [Military] units [in all cities]","[+1 Gold] from every [Horses]","[+1 Production] from every [Horses]",
-			   "[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]","[Military] units gain the [Blitz] promotion","[-20]% Culture cost of adopting new Policies",
-			   "[Military] units gain the [Besiege] promotion","+[50]% Production when constructing [Military] units [in all cities]"],
-
-		"cities": ["Handong","Dongolia","Tathekun","Kakhumutami","Loverelia","Sanchuk","Pingon"]
 	},
 	{
 		"name": "Rhuffelj",
