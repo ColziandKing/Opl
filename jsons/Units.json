@@ -1,2 +1,97 @@
 [
-  
+  {
+		"name": "Caballero",
+		"unitType": "Domain",
+		"uniqueTo": "Colziand",
+		"replaces": "Swordsman",
+		"movement": 3,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Beseige"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Mencarrier",
+		"uniqueTo": "Colziand",
+		"replaces": "Helicopter Gunship",
+		"unitType": "Sphere",
+		"movement": 5,
+		"interceptRange": 2,
+		"strength": 50,
+		"rangedStrength": 50,
+		"cost": 500,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+50]% Strength <vs [Armored] units>",
+			"[40]% chance to intercept air attacks",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"May withdraw before melee ([50]%)",
+			"Ignores Zone of Control",
+			"Can carry [3] [Land] units"],
+		"attackSound": "machinegun"
+	},
+  {
+		"name": "Wave Basher",
+		"unitType": "Empire",
+		"replaces": "Privateer",
+		"uniqueTo": "Suzainswellia",
+		"movement": 5,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
+		"uniques": ["May capture killed [Water] units","Can carry [2] [Land] units"],
+		"attackSound": "cannon"
+	},
+  {
+		"name": "Khensia",
+		"unitType": "Domain",
+		"uniqueTo": "Fullysia",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Great Person - [War]", "Unbuildable", "Uncapturable",
+            "Can carry [2] [Water] units"],
+		"movement": 5
+	},
+  {
+		"name": "Feljh",
+		"unitType": "Sword",
+		"uniqueTo": "Rhuffelj",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+  {
+		"name": "Battering Ram",
+		"unitType": "Domain", // You might expect this to be a siege unit, but apparently it is not
+		"replaces": "Spearman",
+		"uniqueTo": "The Huns",
+		"movement": 3,
+		"strength": 15,
+		"cost": 125,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-40]% Strength <when defending>",
+		"[-2] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I","Cover II"],
+		"attackSound": "throw"
+	}
+]
