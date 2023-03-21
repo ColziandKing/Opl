@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Domain",
+        "movementType": "Land"
+  },
+  {
+    "name": "Empire",
+        "movementType": "Water"
+  },
+	{
+    "name": "Sphere",
+        "movementType": "Air",
+		"uniques": ["Aircraft"]
+  }
+]
