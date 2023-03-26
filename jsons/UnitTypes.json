@@ -15,6 +15,6 @@
   {
         "name": "Superweapon",
         "movementType": "Land",
-        "uniques": ["Ignores terrain cost","Can pass through impassable tiles"]
+        "uniques": ["Can pass through impassable tiles"]
   }
 ]
