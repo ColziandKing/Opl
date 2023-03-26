@@ -15,7 +15,73 @@
 		"hurryCostModifier": 20,
 		"attackSound": "blasterhit"
 	},
-	
+	{
+		"name": "Life Star",
+		"unitType": "Superweapon",
+		"movement": 2,
+		"range": 2,
+		"strength": 1000,
+		"rangedStrength": 50,
+		"cost": 600000,
+		"requiredResource": "Uranium",
+		"requiredTech": "Future Tech",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [2] [Uranium]""Consumes [3] [Aluminum]""Can carry [5] [Air] units","Never appears as a Barbarian unit"],
+		"attackSound": "fleethit"
+	},
+  {
+		"name": "Wave Basher",
+		"unitType": "Empire",
+		"replaces": "Privateer",
+		"uniqueTo": "Suzainswellia",
+		"movement": 5,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
+		"uniques": ["May capture killed [Water] units","Can carry [2] [Land] units"],
+		"attackSound": "laserhit"
+	},
+	{
+		"name": "The Benevolent",
+		"unitType": "Superweapon",
+		"movement": 2,
+		"range": 2,
+		"strength": 100,
+		"rangedStrength": 50,
+		"cost": 500000,
+		"requiredResource": "Uranium",
+		"requiredTech": "Future Tech",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [3] [Aluminum]""Can carry [4] [Air] units","Never appears as a Barbarian unit"],
+		"attackSound": "elechit"
+	},
+  {
+		"name": "Khensia",
+		"unitType": "Domain",
+		"uniqueTo": "Fullysia",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Great Person - [War]", "Unbuildable", "Uncapturable",
+            "Can carry [2] [Water] units"],
+		"movement": 5
+	},
+	{
+		"name": "Stargiver Base",
+		"unitType": "Superweapon",
+		"movement": 2,
+		"range": 2,
+		"strength": 10000,
+		"rangedStrength": 50,
+		"cost": 700000,
+		"requiredResource": "Uranium",
+		"requiredTech": "Future Tech",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [4] [Aluminum]""Can carry [6] [Air] units","Never appears as a Barbarian unit"],
+		"attackSound": "turrethit"
+	},
   {
 		"name": "Feljh",
 		"unitType": "Sword",
