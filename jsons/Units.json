@@ -16,26 +16,17 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Mencarrier",
-		"uniqueTo": "Colziand",
-		"replaces": "Helicopter Gunship",
-		"unitType": "Sphere",
-		"movement": 5,
-		"interceptRange": 2,
-		"strength": 50,
+		"name": "Death Star",
+		"unitType": "Superweapon",
+		"movement": 2,
+		"range": 2,
+		"strength": 100,
 		"rangedStrength": 50,
-		"cost": 500,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+50]% Strength <vs [Armored] units>",
-			"[40]% chance to intercept air attacks",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"All tiles cost 1 movement",
-			"May withdraw before melee ([50]%)",
-			"Ignores Zone of Control",
-			"Can carry [3] [Land] units"],
-		"attackSound": "machinegun"
+		"cost": 600,
+		"requiredResource": "Reactor",
+		"requiredTech": "Military Fleet",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
+		"attackSound": "fleethit"
 	},
   {
 		"name": "Wave Basher",
@@ -79,10 +70,10 @@
 		"attackSound": "nonmetalhit"
 	},
   {
-		"name": "Battering Ram",
+		"name": "Whammer Ham",
 		"unitType": "Domain", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Spearman",
-		"uniqueTo": "The Huns",
+		"uniqueTo": "Fullysia",
 		"movement": 3,
 		"strength": 15,
 		"cost": 125,
