@@ -13,7 +13,7 @@
 		"requiredResource": "Iron",
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Beseige"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "blasterhit"
 	},
 	{
 		"name": "Life Star",
@@ -22,7 +22,7 @@
 		"range": 2,
 		"strength": 1000,
 		"rangedStrength": 50,
-		"cost": 500000,
+		"cost": 600000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [2] [Uranium]""Consumes [3] [Aluminum]""Can carry [5] [Air] units","Never appears as a Barbarian unit"],
@@ -40,7 +40,7 @@
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
 		"uniques": ["May capture killed [Water] units","Can carry [2] [Land] units"],
-		"attackSound": "cannon"
+		"attackSound": "laserhit"
 	},
 	{
 		"name": "The Benevolent",
@@ -49,7 +49,7 @@
 		"range": 2,
 		"strength": 100,
 		"rangedStrength": 50,
-		"cost": 600000,
+		"cost": 500000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [3] [Aluminum]""Can carry [4] [Air] units","Never appears as a Barbarian unit"],
@@ -80,7 +80,7 @@
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [4] [Aluminum]""Can carry [6] [Air] units","Never appears as a Barbarian unit"],
-		"attackSound": "fleethit"
+		"attackSound": "turrethit"
 	},
   {
 		"name": "Feljh",
