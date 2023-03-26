@@ -16,16 +16,16 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Death Star",
+		"name": "Life Star",
 		"unitType": "Superweapon",
 		"movement": 2,
 		"range": 2,
-		"strength": 100,
+		"strength": 1000,
 		"rangedStrength": 50,
-		"cost": 600,
-		"requiredResource": "Reactor",
-		"requiredTech": "Military Fleet",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
+		"cost": 500000,
+		"requiredResource": "Uranium",
+		"requiredTech": "Future Tech",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [2] [Uranium]""Consumes [3] [Aluminum]""Can carry [5] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "fleethit"
 	},
   {
@@ -42,6 +42,19 @@
 		"uniques": ["May capture killed [Water] units","Can carry [2] [Land] units"],
 		"attackSound": "cannon"
 	},
+	{
+		"name": "The Benevolent",
+		"unitType": "Superweapon",
+		"movement": 2,
+		"range": 2,
+		"strength": 100,
+		"rangedStrength": 50,
+		"cost": 600000,
+		"requiredResource": "Uranium",
+		"requiredTech": "Future Tech",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [3] [Aluminum]""Can carry [4] [Air] units","Never appears as a Barbarian unit"],
+		"attackSound": "fleethit"
+	},
   {
 		"name": "Khensia",
 		"unitType": "Domain",
@@ -55,6 +68,19 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable",
             "Can carry [2] [Water] units"],
 		"movement": 5
+	},
+	{
+		"name": "Stargiver Base",
+		"unitType": "Superweapon",
+		"movement": 2,
+		"range": 2,
+		"strength": 10000,
+		"rangedStrength": 50,
+		"cost": 700000,
+		"requiredResource": "Uranium",
+		"requiredTech": "Future Tech",
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [4] [Aluminum]""Can carry [6] [Air] units","Never appears as a Barbarian unit"],
+		"attackSound": "fleethit"
 	},
   {
 		"name": "Feljh",
@@ -73,7 +99,7 @@
 		"name": "Whammer Ham",
 		"unitType": "Domain", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Spearman",
-		"uniqueTo": "Fullysia",
+		"uniqueTo": "Magra",
 		"movement": 3,
 		"strength": 15,
 		"cost": 125,
