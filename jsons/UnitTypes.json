@@ -11,5 +11,10 @@
     "name": "Sphere",
         "movementType": "Air",
 		"uniques": ["Aircraft"]
+  },
+  {
+        "name": "Superweapon",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost","Can pass through impassable tiles"]
   }
 ]
