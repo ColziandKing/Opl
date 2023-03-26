@@ -18,6 +18,7 @@
 	{
 		"name": "Life Star",
 		"unitType": "Superweapon",
+		"uniqueTo": "Colziand",
 		"movement": 2,
 		"range": 2,
 		"strength": 1000,
@@ -25,7 +26,7 @@
 		"cost": 600000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [2] [Uranium]","Consumes [3] [Aluminum]","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [2] per Civilization","Consumes [2] [Uranium]","Consumes [3] [Aluminum]","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "fleethit"
 	},
   {
@@ -45,6 +46,7 @@
 	{
 		"name": "The Benevolent",
 		"unitType": "Superweapon",
+		"uniqueTo": "Suzainswellia",
 		"movement": 2,
 		"range": 2,
 		"strength": 100,
@@ -52,7 +54,7 @@
 		"cost": 500000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]","Consumes [3] [Aluminum]","Can carry [4] [Air] units","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [3] [Uranium]","Consumes [3] [Aluminum]","Can carry [4] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "elechit"
 	},
   {
@@ -72,6 +74,7 @@
 	{
 		"name": "Stargiver Base",
 		"unitType": "Superweapon",
+		"uniqueTo": "Fullysia",
 		"movement": 2,
 		"range": 2,
 		"strength": 10000,
@@ -79,7 +82,7 @@
 		"cost": 700000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]","Consumes [4] [Aluminum]","Can carry [6] [Air] units","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [3] [Uranium]","Consumes [4] [Aluminum]","Can carry [6] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "turrethit"
 	},
   {
