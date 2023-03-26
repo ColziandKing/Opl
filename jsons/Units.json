@@ -53,7 +53,7 @@
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Tech",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Consumes [3] [Uranium]""Consumes [3] [Aluminum]""Can carry [4] [Air] units","Never appears as a Barbarian unit"],
-		"attackSound": "fleethit"
+		"attackSound": "elechit"
 	},
   {
 		"name": "Khensia",
@@ -93,7 +93,7 @@
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"attackSound": "ishit"
 	},
   {
 		"name": "Whammer Ham",
