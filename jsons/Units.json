@@ -25,7 +25,7 @@
 		"rangedStrength": 50,
 		"cost": 600000,
 		"requiredResource": "Uranium",
-		"requiredTech": "Future Tech",
+		"requiredTech": "Nanotechnology",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [2] per Civilization","Consumes [2] [Uranium]","Consumes [3] [Aluminum]","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "fleethit"
 	},
@@ -53,7 +53,7 @@
 		"rangedStrength": 50,
 		"cost": 500000,
 		"requiredResource": "Uranium",
-		"requiredTech": "Future Tech",
+		"requiredTech": "Particle Physics",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [3] [Uranium]","Consumes [3] [Aluminum]","Can carry [4] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "elechit"
 	},
@@ -81,7 +81,7 @@
 		"rangedStrength": 50,
 		"cost": 700000,
 		"requiredResource": "Uranium",
-		"requiredTech": "Future Tech",
+		"requiredTech": "Nuclear Fusion",
 		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [3] [Uranium]","Consumes [4] [Aluminum]","Can carry [6] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "turrethit"
 	},
