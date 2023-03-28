@@ -2,17 +2,19 @@
     {
         "name": "Lord's Blessing",
         "type": "Pantheon",
-        "uniques": ["[+1 Science, +1 Food, +1 Gold, +1 Production, +1 Culture, +1 Faith, +1 Happiness] from [Bonus] tiles [in all cities]"]
+        "uniques": ["[+1 Science, +1 Food, +1 Gold, +1 Production, +1 Culture, +1 Faith, +1 Happiness] from [All] tiles [in all cities]"]
     },
 	{
         "name": "Almighty King",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from every [Palace]"]
+        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from every [Palace]",
+		   "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from every [Wonder]"]
     },
     {
         "name": "In God Alone",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from every [Wonder]",
-		   "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Luxury] tiles [in all cities]"]
+        "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Moai] tiles [in all cities]",
+		    "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Terrace farm] tiles [in all cities]",
+		   "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Polder] tiles [in all cities]"]
     }
   ]
