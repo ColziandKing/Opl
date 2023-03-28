@@ -16,5 +16,15 @@
         "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Moai] tiles [in all cities]",
 		    "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Terrace farm] tiles [in all cities]",
 		   "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Polder] tiles [in all cities]"]
+    },
+    {
+        "name": "First Believers",
+        "type": "Pantheon",
+        "uniques": ["Provides [Porcelain] [in capital]","Provides [Jewelry] [in all cities]"]
+    },
+    {
+        "name": "Harmony",
+        "type": "Follower",
+        "uniques": ["[+1 Food, +1 Science, +1 Culture] [in this city]"]
     }
   ]
