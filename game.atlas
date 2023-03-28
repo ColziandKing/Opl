@@ -900,56 +900,56 @@ ImprovementIcons/War Center
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/First Order
+NationIcons/Magroonaguio
   rotate: false
   xy: 1624, 1208
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Galactic Empire
+NationIcons/Fullysia
   rotate: false
   xy: 1192, 1180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Galactic Republic
+NationIcons/Suzainswellia
   rotate: false
   xy: 1300, 1180
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Rebel Alliance
+NationIcons/Salveo
   rotate: false
   xy: 1840, 742
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Resistance
+NationIcons/Salumi
   rotate: false
   xy: 4, 640
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Separatists
+NationIcons/Syndria Operations
   rotate: false
   xy: 760, 640
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Sith Eternal
+NationIcons/Cannetalhion
   rotate: false
   xy: 1948, 1604
   size: 84, 100
   orig: 84, 100
   offset: 0, 0
   index: -1
-NationIcons/Smugglers
+NationIcons/Jerdain Organization
   rotate: false
   xy: 1624, 560
   size: 100, 100
