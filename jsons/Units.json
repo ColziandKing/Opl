@@ -23,10 +23,10 @@
 		"range": 2,
 		"strength": 1000,
 		"rangedStrength": 50,
-		"cost": 600000,
+		"cost": 6000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Nanotechnology",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [2] per Civilization","Consumes [2] [Uranium]","Consumes [3] [Aluminum]","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [2] per Civilization","Consumes [1] [Uranium]","Consumes [2] [Aluminum]","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "fleethit"
 	},
   {
@@ -40,7 +40,7 @@
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units","Can carry [2] [Land] units"],
+		"uniques": ["May capture killed [Water] units","Can carry [2] [Water] units"],
 		"attackSound": "laserhit"
 	},
 	{
@@ -49,12 +49,12 @@
 		"uniqueTo": "Suzainswellia",
 		"movement": 2,
 		"range": 2,
-		"strength": 100,
+		"strength": 1000,
 		"rangedStrength": 50,
-		"cost": 500000,
+		"cost": 5000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Particle Physics",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [3] [Uranium]","Consumes [3] [Aluminum]","Can carry [4] [Air] units","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [1] [Uranium]","Consumes [2] [Aluminum]","Can carry [4] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "elechit"
 	},
   {
@@ -77,12 +77,12 @@
 		"uniqueTo": "Fullysia",
 		"movement": 2,
 		"range": 2,
-		"strength": 10000,
+		"strength": 1000,
 		"rangedStrength": 50,
-		"cost": 700000,
+		"cost": 7000,
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [3] [Uranium]","Consumes [4] [Aluminum]","Can carry [6] [Air] units","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [1] [Uranium]","Consumes [2] [Aluminum]","Can carry [6] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "turrethit"
 	},
   {
@@ -102,7 +102,7 @@
 		"name": "Whammer Ham",
 		"unitType": "Domain", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Spearman",
-		"uniqueTo": "Magra",
+		"uniqueTo": "Magroonaguio",
 		"movement": 3,
 		"strength": 15,
 		"cost": 125,
