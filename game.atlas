@@ -963,6 +963,13 @@ NationIcons/Colziand
   orig: 99, 100
   offset: 0, 0
   index: -1
+NationIcons/Eisnia Archipelago
+  rotate: false
+  xy: 544, 424
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
 PolicyIcons/Academics
   rotate: false
   xy: 1776, 1748
