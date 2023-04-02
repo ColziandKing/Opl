@@ -28,6 +28,16 @@
         "uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
     },
     {
+        "name": "Fullysianth Chant I",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from [Forest] tiles [in this city]"]
+    },
+    {
+        "name": "Suzainswellian Waves",
+        "type": "Pantheon",
+        "uniques": ["[+10]% [Food] [in all cities]", "[+10]% Production when constructing [Water] units [in this city]"]
+    },
+    {
         "name": "Harmony",
         "type": "Follower",
         "uniques": ["[+1 Food, +1 Science, +1 Culture] [in this city]"]
