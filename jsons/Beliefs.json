@@ -20,7 +20,12 @@
     {
         "name": "First Believers",
         "type": "Pantheon",
-        "uniques": ["Provides [Porcelain] [in capital]","Provides [Jewelry] [in all cities]"]
+        "uniques": ["Provides [Porcelain] from every [Palace]","Provides [Jewelry] from every [Palace]"]
+    },
+	{
+        "name": "Idjang",
+        "type": "Pantheon",
+        "uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
     },
     {
         "name": "Harmony",
