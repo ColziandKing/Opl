@@ -80,7 +80,7 @@
    	 },
 	// Fullysia
 	{
-		"name": "Fullysianth Chant",
+		"name": "Fullysianth Chant II",
 		"uniqueTo": "Fullysia",
 		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
@@ -91,6 +91,18 @@
 		"uniques": ["[1] free [Norwegian Ski Infantry] units appear","[1] free [Mehal Sefari] units appear","[1] free [Cossack] units appear",
 			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear","Provides [2] [Gems]","Double quantity of [Gems] produced"],
 		"requiredTech": "Banking"
+	},
+	{
+		"name": "Fullysianth Chant III",
+		"gold": 1,
+		"culture": 1,
+		"faith": 1,
+		"cityStrength": 2,
+		"cost": 100,
+		"uniqueTo": "Fullysia",
+		"isWonder": true,
+		"requiredBuilding": "Fullysianth Chant II",
+		"uniques": ["[+1 Culture, +1 Gold] from [Forest] tiles [in this city]"],
 	},
 {
 		"name": "Paper Maker",
