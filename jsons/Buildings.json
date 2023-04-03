@@ -143,9 +143,28 @@
 		"uniqueTo": "Suzainswellia",
 		"hurryCostModifier": 0,
 		"maintenance": 2,
+		"isWonder": true,
 		"requiredBuilding": "Armory",
 		"uniques": ["New [Military] units start with [50] Experience [in this city]", "Destroyed when the city is captured", "[1] free [Foreign Legion] units appear"],
 		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Suzainswellian Currents",
+		"uniqueTo": "Suzainswellia",
+		"hurryCostModifier": 0,
+		"maintenance": 2,
+		"isWonder": true,
+		"requiredBuilding": "Suzainswellian Strength",
+		"uniques": ["[+10]% [Culture] [in all cities]","[+10]% [Faith] [in all cities]","[1] free [Privateer] units appear","[1] free [Frigate] units appear"]
+	},
+	{
+		"name": "Suzainswellian Tsunami",
+		"uniqueTo": "Suzainswellia",
+		"hurryCostModifier": 0,
+		"maintenance": 2,
+		"isWonder": true,
+		"requiredBuilding": "Suzainswellian Currents",
+		"uniques": ["[+10]% [Happiness] [in all cities]","[+10]% [Production] [in all cities]","[+10]% [Gold] [in all cities]"]
 	},
 	{
 		"name": "Floating Gardens",
