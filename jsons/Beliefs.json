@@ -38,8 +38,19 @@
         "uniques": ["[+10]% [Food] [in all cities]", "[+10]% Production when constructing [Water] units [in this city]"]
     },
     {
+        "name": "Spirit Inheritance",
+        "type": "Founder",
+        "uniques": ["[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]
+    }
+    {
         "name": "Harmony",
         "type": "Follower",
         "uniques": ["[+1 Food, +1 Science, +1 Culture] [in this city]"]
-    }
+    },
+    {
+		"name": "Word of Life",
+		"type": "Pantheon",
+		"uniques": [
+			"[+40]% Natural religion spread [in all cities] from every [Oasis] tiles [in all cities]"
+		]
   ]
