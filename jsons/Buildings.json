@@ -154,6 +154,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"isWonder": true,
+		"requiredTech": "Navigation"
 		"requiredBuilding": "Suzainswellian Strength",
 		"uniques": ["[+10]% [Culture] [in all cities]","[+10]% [Faith] [in all cities]","[1] free [Privateer] units appear","[1] free [Frigate] units appear"]
 	},
@@ -163,6 +164,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"isWonder": true,
+		"requiredTech": "Steam Power"
 		"requiredBuilding": "Suzainswellian Currents",
 		"uniques": ["[+10]% [Happiness] [in all cities]","[+10]% [Production] [in all cities]","[+10]% [Gold] [in all cities]"]
 	},
