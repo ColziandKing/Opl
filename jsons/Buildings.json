@@ -460,6 +460,17 @@
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
     },
+{ 
+	"name": "April 1st 2023 Memorial", 
+	"isWonder": true,
+        "cost": 120,
+        "faith": 3,
+        "uniques": ["[+25]% great person generation [in this city]"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry"
+	"quote": "'An Elevate of faith, a ghost of the past, and chat about the Apostle Paul with Sir Joey, my teacher at Soli deo Gloria.' - Raymond" 
+}	
 	//Yanzerhan
 {
 		"name": "Sphinx Gate",
