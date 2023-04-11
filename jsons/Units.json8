@@ -15,48 +15,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "blasterhit"
 	},
-	{
-		"name": "Life Star",
-		"unitType": "Superweapon",
-		"uniqueTo": "Colziand",
-		"movement": 2,
-		"range": 2,
-		"strength": 1000,
-		"rangedStrength": 50,
-		"cost": 6000,
-		"requiredResource": "Uranium",
-		"requiredTech": "Nanotechnology",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [2] per Civilization","Consumes [1] [Uranium]","Consumes [2] [Aluminum]","Can carry [5] [Air] units","Never appears as a Barbarian unit"],
-		"attackSound": "fleethit"
-	},
-  {
-		"name": "Wave Basher",
-		"unitType": "Empire",
-		"replaces": "Privateer",
-		"uniqueTo": "Suzainswellia",
-		"movement": 5,
-		"strength": 30,
-		"cost": 250,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units","Can carry [2] [Water] units"],
-		"attackSound": "laserhit"
-	},
-	{
-		"name": "The Benevolent",
-		"unitType": "Superweapon",
-		"uniqueTo": "Suzainswellia",
-		"movement": 2,
-		"range": 2,
-		"strength": 1000,
-		"rangedStrength": 50,
-		"cost": 5000,
-		"requiredResource": "Uranium",
-		"requiredTech": "Particle Physics",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [1] [Uranium]","Consumes [2] [Aluminum]","Can carry [4] [Air] units","Never appears as a Barbarian unit"],
-		"attackSound": "elechit"
-	},
   {
 		"name": "Khensia",
 		"unitType": "Domain",
@@ -70,20 +28,6 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable",
             "Can carry [2] [Water] units"],
 		"movement": 5
-	},
-	{
-		"name": "Stargiver Base",
-		"unitType": "Superweapon",
-		"uniqueTo": "Fullysia",
-		"movement": 2,
-		"range": 2,
-		"strength": 1000,
-		"rangedStrength": 50,
-		"cost": 7000,
-		"requiredResource": "Uranium",
-		"requiredTech": "Nuclear Fusion",
-		"uniques": ["[+100]% Strength <vs [Fighter] units>","Limited to [1] per Civilization","Consumes [1] [Uranium]","Consumes [2] [Aluminum]","Can carry [6] [Air] units","Never appears as a Barbarian unit"],
-		"attackSound": "turrethit"
 	},
   {
 		"name": "Feljh",
