@@ -573,5 +573,52 @@
         "uniques": ["Provides [2] [Iron]","[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
-    }
+    },
+//special
+{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 1,
+		"culture": 3,
+		"happiness": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"requiredTech": "Theology",
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Hidden when religion is disabled","May choose [1] additional belief(s) of any type when [enhancing] a religion"]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"requiredTech": "Theology",
+		"hurryCostModifier": 40,
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+			"Hidden when religion is disabled","Destroyed when the city is captured","May choose [1] additional belief(s) of any type when [founding] a religion"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"requiredTech": "Theology",
+		"uniques": ["Hidden when religion is disabled","May choose [1] additional belief(s) of any type when [founding] a religion"]
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"requiredTech": "Theology",
+		"uniques": ["Hidden when religion is disabled","May choose [1] additional belief(s) of any type when [enhancing] a religion"]
+	}
 ]
