@@ -1,9 +1,4 @@
 [
-    {
-        "name": "Lord's Blessing",
-        "type": "Pantheon",
-        "uniques": ["[+1 Science, +1 Food, +1 Gold, +1 Production, +1 Culture, +1 Faith, +1 Happiness] from [All] tiles [in all cities]"]
-    },
 	{
         "name": "Almighty King",
         "type": "Pantheon",
@@ -21,11 +16,6 @@
         "name": "First Believers",
         "type": "Pantheon",
         "uniques": ["Provides [Porcelain] from every [Palace]","Provides [Jewelry] from every [Palace]"]
-    },
-    {
-        "name": "Fullysianth Chant I",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Forest] tiles [in this city]"]
     },
     {
         "name": "Suzainswellian Waves",
