@@ -80,55 +80,6 @@
    	 },
 	// Fullysia
 	{
-		"name": "Fullysianth Chant II",
-		"uniqueTo": "Fullysia",
-		"gold": 3,
-		"specialistSlots": {"Merchant": 1},
-		"happiness": 3,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 30},
-		"requiredBuilding": "Market",
-		"uniques": ["[1] free [Norwegian Ski Infantry] units appear","[1] free [Mehal Sefari] units appear","[1] free [Cossack] units appear",
-			   "[1] free [Hussar] units appear","[1] free [Carolean] units appear","Provides [2] [Gems]","Double quantity of [Gems] produced"],
-		"requiredTech": "Banking"
-	},
-	{
-		"name": "Fullysianth Chant III",
-		"gold": 1,
-		"culture": 1,
-		"faith": 1,
-		"cityStrength": 2,
-		"cost": 100,
-		"uniqueTo": "Fullysia",
-		"isWonder": true,
-		"requiredBuilding": "Fullysianth Chant II",
-		"uniques": ["[+1 Culture, +1 Gold] per [6] population [in this city]"],
-	},
-	{
-		"name": "Fullysianth Chant IV",
-		"food": 1,
-		"production": 1,
-		"faith": 1,
-		"cityStrength": 2,
-		"cost": 100,
-		"uniqueTo": "Fullysia",
-		"isWonder": true,
-		"requiredBuilding": "Fullysianth Chant III",
-		"uniques": ["[+1 Food, +1 Production] per [10] population [in this city]"],
-	},
-	{
-		"name": "Fullysianth Chant V",
-		"science": 1,
-		"happiness": 1,
-		"faith": 1,
-		"cityStrength": 2,
-		"cost": 100,
-		"uniqueTo": "Fullysia",
-		"isWonder": true,
-		"requiredBuilding": "Fullysianth Chant IV",
-		"uniques": ["[+1 Happiness, +1 Science] per [14] population [in this city]"],
-	},
-	{
 		"name": "Paper Maker",
 		"replaces": "Library",
 		"uniqueTo": "Fullysia",
@@ -138,36 +89,6 @@
 		"requiredTech": "Writing"
 	},
 	// Suzainswellia
-	{
-		"name": "Suzainswellian Strength",
-		"uniqueTo": "Suzainswellia",
-		"hurryCostModifier": 0,
-		"maintenance": 2,
-		"isWonder": true,
-		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [50] Experience [in this city]", "Destroyed when the city is captured", "[1] free [Foreign Legion] units appear"],
-		"requiredTech": "Military Science"
-	},
-	{
-		"name": "Suzainswellian Currents",
-		"uniqueTo": "Suzainswellia",
-		"hurryCostModifier": 0,
-		"maintenance": 2,
-		"isWonder": true,
-		"requiredTech": "Navigation"
-		"requiredBuilding": "Suzainswellian Strength",
-		"uniques": ["[+10]% [Culture] [in all cities]","[+10]% [Faith] [in all cities]","[1] free [Privateer] units appear","[1] free [Frigate] units appear"]
-	},
-	{
-		"name": "Suzainswellian Tsunami",
-		"uniqueTo": "Suzainswellia",
-		"hurryCostModifier": 0,
-		"maintenance": 2,
-		"isWonder": true,
-		"requiredTech": "Steam Power"
-		"requiredBuilding": "Suzainswellian Currents",
-		"uniques": ["[+10]% [Happiness] [in all cities]","[+10]% [Production] [in all cities]","[+10]% [Gold] [in all cities]"]
-	},
 	{
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
@@ -268,7 +189,7 @@
 	{
         	"name": "Hypermarket",
         	"cost": 400,
-		"food": 2,
+		"food": 3,
 		"production": 2,
 		"maintenance": 4,
 		"percentStatBonus": {"gold": 10},
@@ -299,14 +220,6 @@
 		"requiredTech": "Plastics"
 		"maintenance": 4,
 	},
-	{
-        "name": "Greenhouse",
-        "cost": 100,
-        "food": 2,
-	"uniques": ["[+1 Food] from [Mountain] tiles [in this city]","[+1 Food] from [Desert] tiles [in this city]","[+1 Food] from [Tundra] tiles [in this city]","[+1 Food] from [Snow] tiles [in this city]"],
-        "maintenance": 2,
-	"requiredTech": "The Wheel"
-    },
 	//Salveo
 	{
 		"name": "Walls of Babylon",
